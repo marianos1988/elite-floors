@@ -3,6 +3,7 @@ body {
   background: rgb(27 32 44 / 100%);
   color: #f9f9f9;
   font-family: "Euclid Circular A", "Poppins";
+  overflow-y: visible;
 }
 
 * {
@@ -31,6 +32,9 @@ header nav {
   backface-visibility: hidden;
   transform: translateZ(0px);
   transition: 0.3s;
+  box-shadow: 3px 5px 12px 0px rgba(255,255,255,0.75);
+  -webkit-box-shadow: 3px 5px 12px 0px rgba(255,255,255,0.75);
+  -moz-box-shadow: 3px 5px 12px 0px rgba(255,255,255,0.75);
 }
 
 
@@ -74,6 +78,11 @@ header .burger i {
   border-radius: 20%;
 }
 
+header .burger i:hover {
+color: #b769fc;
+transition: color .4s ease-in;
+}
+
  header .burger i:last-child {
   display: none;
 }
@@ -109,10 +118,29 @@ main {
   padding: 10px 30px;
 }
 
-header nav button {
+header aside button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   background: transparent;
   border: 0;
   cursor: pointer;
+}
+
+header aside button:hover {
+color: white;
+box-shadow: 0px 0px 16px 7px rgba(255,255,255,0.75);
+-webkit-box-shadow: 0px 0px 16px 7px rgba(255,255,255,0.75);
+-moz-box-shadow: 0px 0px 16px 7px rgba(255,255,255,0.75);
+transition: all .4s ease-in;
+}
+
+header aside button img {
+  width: 35px;
+  margin-right: 8px;
+
+  
 }
 
 header aside {
@@ -141,6 +169,12 @@ header aside a {
   height: 50px;
 }
 
+header aside a:hover {
+color:#b769fc;
+cursor: pointer;
+transition: color .4s ease-in;
+}
+
 header aside h3 {
   margin: 40px 0 10px;
   color: #989cad;
@@ -166,6 +200,7 @@ header aside button {
     border-radius: 0%;
     
   }
+
 }
 
 

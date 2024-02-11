@@ -259,6 +259,7 @@ footer .links .links-column a {
   gap: 10px;
   text-align: center;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 footer .links .links-column a:hover {

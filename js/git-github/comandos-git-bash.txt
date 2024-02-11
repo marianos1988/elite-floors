@@ -1,0 +1,97 @@
+- cd: Permite cambiar de directorio (Change Directory)
+
+- cd "carpeta cosas": Usar comillas sirve para carpetas con espacios
+
+- mkdir: Permite crear una Carpeta (Make Directory)
+
+- ls: lista el contenido de un directorio
+
+- cd ..: Permite volver para atras en la carpeta
+
+-  rmdir: Elimina el directorio (Remove Directory)
+
+- clear: limpiar la consola CLI de git
+
+- git config --global user.name "Mariano SY": configura el nombre git en todas las carpetas del repositorio por el global
+
+- git config user.name: Te notifica que nombre tiene configurado el git
+
+- git config --global user.email "prueba@correo.com": configura el correo git en todas las carpetas del repositorio por el global
+
+- git config user.email: Te notifica que correo tiene configurado el git
+
+- git init: Inicializa un repositorio git en la carpeta que te encontras situada
+
+- git config --global init.defaultBranch main: Configurar el nombre de la rama principal (por default se pone main)
+
+- git status:  Te muestra el estado del repositorio git, si existen comits o archivos modificados para subir
+
+- git add nombre-archivo: Agregas el archivo al area de preparacion
+
+- git add . : Agrega todos los archivos al area de preparacion
+
+- git rm --cached archivo-prueba.txt: Elimina el archivo del area de preparacion
+
+- git commit -m "(aca escribir el mensaje)": Realizar un commit
+
+- git commit: realiza un commit y escribis el texto dentro del archivo de visual studio code y luego se guarda
+
+- git log: ver lista de commits con informacion completa
+
+- git log --oneline: ver lista de commits con informacion reducida
+
+- git log -p: ver lista de commits mostrando las diferencias de los cambios que se hizo (Presionar Q para salir)
+
+- git config --global core.editor "code --wait": Cambia el editor a Visual Studio Code
+
+- git config -global core.editor "subl -n -w": Cambia el editor a Sublime Text
+
+- git commit --amend: Modifica la descripcion del commit (sirve para el ultimo commit)
+
+- git reset --soft HEAD~1: deshace el ultimo registro del commit
+
+- git branch (nombre de la rama): Crea una rama en tu repositorio
+
+- git branch: listar las ramas que hay
+
+- git checkout (nombre de la rama): Cambiar de rama (branch)
+
+- git checkout -b version-python: Crea una rama en tu repositorio y tambien te cambia de rama
+
+- git branch -m (nombre nuevo a modificar): Cambia el nombre de la rama (branch) - Tenes que estar en la rama
+
+- git branch -m (nombre actual de rama) (nombre nuevo a cambiar): Cambia el nombre de la rama
+
+- git branch -D (nombre de la rama): Elimina una rama existente
+
+- git branch -a: Ves la lista de las ramas en github
+
+- git merge (nombre rama a fusionar): Fusiona la rama que queremos - Estar ubicado en la rama que queremos fusionar
+
+- git merge --continue: PErmite continuar con el commit luego de corregir los conflictos de fusion de ramas
+
+- git clone (HTTPS de github): Clona el repositorio de Github
+
+- git remote: Te informa el nombre del repositorio remoto que se le asigno
+
+- git remote -v: muestras mas detalles del repositorio remoto
+
+- git push origin main: Envia los archivos que actualziados de git a github // Usar el Token que se genera en github
+
+- git push origin (branch nuevo): Envia los archivos que actualziados de git a con otra rama nueva
+
+- git push origin -d (nombre de rama github): Elimina una rama de github
+
+- git pull origin main: Recibe los archivos actualizados de github a git
+
+- git pull origin (branch nueva): Recibe los archivos actualizados de github a git de la rama que elijamos
+
+- git fetch origin: Recibe los archivos actualizados de github pero no se actualiza con el git
+
+- git checkout origin/main: Muestra solamente lo que recibio de github y no se actualizo en git
+
+- git remote add origin (HTTPS de github): Creas un repositorio de git a github
+
+- .code: abre directamente la carpeta en visual studio code que estamso unicados en gitbranch 
+
+Tokken Personal de github: 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

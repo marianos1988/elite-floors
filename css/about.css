@@ -1,0 +1,20 @@
+.containter-about {
+
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.containter-about .about-tittle {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3rem;
+}
+
+@media (min-width:350px) AND (max-width:699px) {
+    .containter-about {
+        margin-top: 0px;
+    }
+}

@@ -122,7 +122,11 @@
     url("../img/carousel-interior-exterior/4.jpg") no-repeat 50% 50% / cover;
     border-radius: 15px;
 }
-  
+.carousel-internal-external .carousel .swiper .swiper-wrapper .swiper-slide--five {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+  url("../img/carousel-interior-exterior/5.jpg") no-repeat 50% 50% / cover;
+  border-radius: 15px;
+}
   .swiper-3d .swiper-slide-shadow-left,
   .swiper-3d .swiper-slide-shadow-right {
     background-image: none;

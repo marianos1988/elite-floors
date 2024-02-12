@@ -42,4 +42,18 @@
     .container-gallery {
         margin-top: 0px;
     }
+
+    
+}
+
+@media (min-width:350px) AND (max-width:450px) {
+    .container-gallery .all-img-gallery img {
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        object-fit: cover;
+        border-radius: 10%;
+        cursor: pointer;
+    
+    }
 }

@@ -315,7 +315,7 @@ footer.top .socials > a {
 }
 
 @media (min-width:350px) AND (max-width: 500px) {
-  .box-logo> img {
+  .box-logo > img {
     height: 150px;
   
   }

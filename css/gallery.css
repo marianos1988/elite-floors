@@ -14,16 +14,29 @@
     font-size: 3rem;
 }
 
-.container-gallery .all-img-galllery {
+.container-gallery .all-img-gallery {
     display: flex;
- justify-content: center;
+    justify-content: center;
+    margin: 0px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(3,3,3,1) 0%, rgb(39, 38, 41) 100%);
+    gap:4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     flex-wrap: wrap;
+    box-shadow: 0px 0px 16px 7px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 0px 0px 16px 7px rgba(255,255,255,0.75);
+    -moz-box-shadow: 0px 0px 16px 7px rgba(255,255,255,0.75);
+    background-color: #000;
+    border-radius: 15px;
    
 }
 .container-gallery .all-img-gallery img {
     width: 350px;
     height: 350px;
-    margin: 1%;
+    margin: 5%;
     object-fit: cover;
     border-radius: 10%;
     cursor: pointer;
@@ -48,8 +61,55 @@
 
 @media (min-width:350px) AND (max-width:450px) {
     .container-gallery .all-img-gallery img {
-        width: 300px;
-        height: 300px;
+        width: 270px;
+        height: 270px;
+        margin: 10px;
+        object-fit: cover;
+        border-radius: 10%;
+        cursor: pointer;
+    
+    }
+}
+
+@media (min-width:451px) AND (max-width:500px) {
+    .container-gallery .all-img-gallery img {
+        width: 290px;
+        height: 290px;
+        margin: 10px;
+        object-fit: cover;
+        border-radius: 10%;
+        cursor: pointer;
+    
+    }
+}
+
+@media (min-width:790px) AND (max-width:900px) {
+    .container-gallery .all-img-gallery img {
+        width: 320px;
+        height: 320px;
+        margin: 10px;
+        object-fit: cover;
+        border-radius: 10%;
+        cursor: pointer;
+    
+    }
+}
+
+@media (min-width:1202px) AND (max-width:1350px) {
+    .container-gallery .all-img-gallery img {
+        width: 330px;
+        height: 330px;
+        margin: 10px;
+        object-fit: cover;
+        border-radius: 10%;
+        cursor: pointer;
+    
+    }
+}
+@media (min-width:1651px) AND (max-width:1890px) {
+    .container-gallery .all-img-gallery img {
+        width: 340px;
+        height: 340px;
         margin: 10px;
         object-fit: cover;
         border-radius: 10%;

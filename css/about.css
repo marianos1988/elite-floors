@@ -51,7 +51,10 @@
 }
   
 .container-about .container .box  .imgBox {
-    position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -59,6 +62,60 @@
     z-index: 2;
     transition: all 0.5s ease-in-out;
 }
+
+.container-about .container .box .imgBox .btn-video {
+  margin: auto;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  
+}
+
+.container-about .container .box .imgBox .btn-video.play {
+  z-index: 99;
+  background-image: url("../img/play.png");
+  object-fit: cover;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  opacity: .6;
+  
+}
+
+.container-about .container .box .imgBox .btn-video.play:hover {
+
+  opacity: 1;
+  box-shadow: 0px 0px 8px 3px rgba(255,255,255,0.75);
+  -webkit-box-shadow: 0px 0px 8px 3px rgba(255,255,255,0.75);
+  -moz-box-shadow: 0px 0px 8px 3px rgba(255,255,255,0.75);
+  transition: all .4s ease-in;
+}
+
+.container-about .container .box .imgBox .btn-video.stop {
+  display: inherit;
+  z-index: 99;
+  background-image: url("../img/stop.png");
+  object-fit: cover;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  opacity: .6;
+  
+}
+
+.container-about .container .box .imgBox .btn-video:hover {
+
+  opacity: 1;
+  box-shadow: 0px 0px 8px 3px rgba(255,255,255,0.75);
+  -webkit-box-shadow: 0px 0px 8px 3px rgba(255,255,255,0.75);
+  -moz-box-shadow: 0px 0px 8px 3px rgba(255,255,255,0.75);
+  transition: all .4s ease-in;
+}
+
+
   
 .container-about .container .box  .imgBox video {
     width: 100%;
@@ -66,6 +123,8 @@
     object-fit: cover;
     resize: both;
     border-radius: 10%;
+
+ 
 }
 
 .container-about .container .box  .imgBox video:hover {
@@ -90,6 +149,8 @@
     text-align: center;
     transition: 0.5s ease-in-out;
     border-radius: 10%;
+
+
   }
 
   .container-about .container .box  .content:hover {
@@ -141,5 +202,10 @@
     .container-about .container .box {
       width: 270px;
       height: 270px;
+    }
+
+    .container-about .container .box .imgBox .btn-video {
+      width: 45px;
+      height: 45px;
     }
 }

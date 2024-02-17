@@ -55,7 +55,7 @@ box-shadow: -3px -3px 49px 1px rgba(255,255,255,0.65);
 header .burger {
 
   position: fixed;
-  z-index: 3;
+  z-index: 9999;
   top: 0;
   right: 0;
   display: grid;
@@ -97,7 +97,7 @@ body.open .burger i:last-child {
 
 header .overlay {
   position: fixed;
-  z-index: 999;
+  z-index: 991;
   top: 0;
   left: 0;
   bottom: 0;
@@ -144,7 +144,7 @@ header aside button img {
 
 header aside {
   position: fixed;
-  z-index: 999;
+  z-index: 992;
   top: 0;
   right: 0;
   display: flex;

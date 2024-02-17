@@ -63,7 +63,8 @@
     transition: all 0.5s ease-in-out;
 }
 
-.container-about .container .box .imgBox .btn-video {
+.container-about .container .box .imgBox .btn-play-video,
+.container-about .container .box .content .btn-stop-video {
   margin: auto;
   position: absolute;
   width: 60px;
@@ -72,7 +73,7 @@
   
 }
 
-.container-about .container .box .imgBox .btn-video.play {
+.container-about .container .box .imgBox .btn-play-video {
   z-index: 99;
   background-image: url("../img/play.png");
   object-fit: cover;
@@ -81,10 +82,11 @@
   background-size: cover;
   cursor: pointer;
   opacity: .6;
+  animation: aparecer .5s ease-in;
   
 }
 
-.container-about .container .box .imgBox .btn-video.play:hover {
+.container-about .container .box .imgBox .btn-play-video:hover {
 
   opacity: 1;
   box-shadow: 0px 0px 8px 3px rgba(255,255,255,0.75);
@@ -93,8 +95,8 @@
   transition: all .4s ease-in;
 }
 
-.container-about .container .box .imgBox .btn-video.stop {
-  display: inherit;
+.container-about .container .box .content .btn-stop-video {
+
   z-index: 99;
   background-image: url("../img/stop.png");
   object-fit: cover;
@@ -102,11 +104,23 @@
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
-  opacity: .6;
+  opacity: .4;
+  transform: translate(136px,-7px);
   
 }
 
-.container-about .container .box .imgBox .btn-video:hover {
+.btn-visible {
+  display: inherit;
+  animation: aparecer .5s ease-in;
+
+}
+
+.btn-invisible {
+  display: none;
+}
+
+.container-about .container .box .imgBox .btn-play-video:hover,
+.container-about .container .box .content .btn-stop-video:hover {
 
   opacity: 1;
   box-shadow: 0px 0px 8px 3px rgba(255,255,255,0.75);
@@ -204,8 +218,23 @@
       height: 270px;
     }
 
-    .container-about .container .box .imgBox .btn-video {
+    .container-about .container .box .imgBox .btn-play-video {
       width: 45px;
       height: 45px;
     }
+    .container-about .container .box .content .btn-stop-video {
+      width: 40px;
+      height: 40px;
+      transform: translate(108px,-28px);
+    }
+}
+
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

@@ -97,7 +97,7 @@ body.open .burger i:last-child {
 
 header .overlay {
   position: fixed;
-  z-index: 2;
+  z-index: 999;
   top: 0;
   left: 0;
   bottom: 0;
@@ -144,7 +144,7 @@ header aside button img {
 
 header aside {
   position: fixed;
-  z-index: 2;
+  z-index: 999;
   top: 0;
   right: 0;
   display: flex;

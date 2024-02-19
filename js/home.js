@@ -60,6 +60,26 @@ var swiper = new Swiper(".swiper", {
                 document.querySelector(`#btn-play-video-4`).classList.replace("btn-invisible","btn-visible");
                 document.querySelector(`#btn-stop-video-4`).classList.replace("btn-visible","btn-invisible");
               }
+            if(
+              document.querySelector("#btn-play-video-5").classList.contains("btn-invisible") && 
+              document.querySelector("#btn-stop-video-5").classList.contains("btn-visible")
+    
+            ) {
+                document.querySelector("#video-5").pause();
+                document.querySelector("#video-5").currentTime = 0;
+                document.querySelector(`#btn-play-video-5`).classList.replace("btn-invisible","btn-visible");
+                document.querySelector(`#btn-stop-video-5`).classList.replace("btn-visible","btn-invisible");
+              }
+            if(
+              document.querySelector("#btn-play-video-6").classList.contains("btn-invisible") && 
+              document.querySelector("#btn-stop-video-6").classList.contains("btn-visible")
+    
+            ) {
+                document.querySelector("#video-6").pause();
+                document.querySelector("#video-6").currentTime = 0;
+                document.querySelector(`#btn-play-video-6`).classList.replace("btn-invisible","btn-visible");
+                document.querySelector(`#btn-stop-video-6`).classList.replace("btn-visible","btn-invisible");
+              }
 
             
             document.querySelector(`#btn-play-video-1`).classList.replace("btn-visible","btn-invisible");
@@ -111,6 +131,26 @@ var swiper = new Swiper(".swiper", {
             document.querySelector(`#btn-play-video-4`).classList.replace("btn-invisible","btn-visible");
             document.querySelector(`#btn-stop-video-4`).classList.replace("btn-visible","btn-invisible");
           }
+        if(
+          document.querySelector("#btn-play-video-5").classList.contains("btn-invisible") && 
+          document.querySelector("#btn-stop-video-5").classList.contains("btn-visible")
+
+        ) {
+            document.querySelector("#video-5").pause();
+            document.querySelector("#video-5").currentTime = 0;
+            document.querySelector(`#btn-play-video-5`).classList.replace("btn-invisible","btn-visible");
+            document.querySelector(`#btn-stop-video-5`).classList.replace("btn-visible","btn-invisible");
+          }
+        if(
+          document.querySelector("#btn-play-video-6").classList.contains("btn-invisible") && 
+          document.querySelector("#btn-stop-video-6").classList.contains("btn-visible")
+
+        ) {
+            document.querySelector("#video-6").pause();
+            document.querySelector("#video-6").currentTime = 0;
+            document.querySelector(`#btn-play-video-6`).classList.replace("btn-invisible","btn-visible");
+            document.querySelector(`#btn-stop-video-6`).classList.replace("btn-visible","btn-invisible");
+          }
 
           document.querySelector(`#btn-play-video-2`).classList.replace("btn-visible","btn-invisible");
           document.querySelector("#btn-stop-video-2").classList.replace("btn-invisible","btn-visible");
@@ -159,6 +199,26 @@ var swiper = new Swiper(".swiper", {
             document.querySelector("#video-4").currentTime = 0;
             document.querySelector(`#btn-play-video-4`).classList.replace("btn-invisible","btn-visible");
             document.querySelector(`#btn-stop-video-4`).classList.replace("btn-visible","btn-invisible");
+          }
+        if(
+          document.querySelector("#btn-play-video-5").classList.contains("btn-invisible") && 
+          document.querySelector("#btn-stop-video-5").classList.contains("btn-visible")
+
+        ) {
+            document.querySelector("#video-5").pause();
+            document.querySelector("#video-5").currentTime = 0;
+            document.querySelector(`#btn-play-video-5`).classList.replace("btn-invisible","btn-visible");
+            document.querySelector(`#btn-stop-video-5`).classList.replace("btn-visible","btn-invisible");
+          }
+        if(
+          document.querySelector("#btn-play-video-6").classList.contains("btn-invisible") && 
+          document.querySelector("#btn-stop-video-6").classList.contains("btn-visible")
+
+        ) {
+            document.querySelector("#video-6").pause();
+            document.querySelector("#video-6").currentTime = 0;
+            document.querySelector(`#btn-play-video-6`).classList.replace("btn-invisible","btn-visible");
+            document.querySelector(`#btn-stop-video-6`).classList.replace("btn-visible","btn-invisible");
           }
 
           document.querySelector(`#btn-play-video-3`).classList.replace("btn-visible","btn-invisible");
@@ -209,6 +269,26 @@ var swiper = new Swiper(".swiper", {
             document.querySelector(`#btn-play-video-3`).classList.replace("btn-invisible","btn-visible");
             document.querySelector(`#btn-stop-video-3`).classList.replace("btn-visible","btn-invisible");
           }
+        if(
+          document.querySelector("#btn-play-video-5").classList.contains("btn-invisible") && 
+          document.querySelector("#btn-stop-video-5").classList.contains("btn-visible")
+
+        ) {
+            document.querySelector("#video-5").pause();
+            document.querySelector("#video-5").currentTime = 0;
+            document.querySelector(`#btn-play-video-5`).classList.replace("btn-invisible","btn-visible");
+            document.querySelector(`#btn-stop-video-5`).classList.replace("btn-visible","btn-invisible");
+          }
+        if(
+          document.querySelector("#btn-play-video-6").classList.contains("btn-invisible") && 
+          document.querySelector("#btn-stop-video-6").classList.contains("btn-visible")
+
+        ) {
+            document.querySelector("#video-6").pause();
+            document.querySelector("#video-6").currentTime = 0;
+            document.querySelector(`#btn-play-video-6`).classList.replace("btn-invisible","btn-visible");
+            document.querySelector(`#btn-stop-video-6`).classList.replace("btn-visible","btn-invisible");
+          }
 
           document.querySelector(`#btn-play-video-4`).classList.replace("btn-visible","btn-invisible");
           document.querySelector("#btn-stop-video-4").classList.replace("btn-invisible","btn-visible");
@@ -223,6 +303,146 @@ var swiper = new Swiper(".swiper", {
           document.querySelector("#video-4").addEventListener("ended", ()=> {
             document.querySelector(`#btn-play-video-4`).classList.replace("btn-invisible","btn-visible");
             document.querySelector("#btn-stop-video-4").classList.replace("btn-visible","btn-invisible");
+          });
+        }
+        else if(element.id === "btn-play-video-5") {
+          document.querySelector("#video-5").play();
+
+          if(
+            document.querySelector("#btn-play-video-1").classList.contains("btn-invisible") && 
+            document.querySelector("#btn-stop-video-1").classList.contains("btn-visible")
+
+        ) {
+            document.querySelector("#video-1").pause();
+            document.querySelector("#video-1").currentTime = 0;
+            document.querySelector(`#btn-play-video-1`).classList.replace("btn-invisible","btn-visible");
+            document.querySelector(`#btn-stop-video-1`).classList.replace("btn-visible","btn-invisible");
+          }
+        if(
+            document.querySelector("#btn-play-video-2").classList.contains("btn-invisible") && 
+            document.querySelector("#btn-stop-video-2").classList.contains("btn-visible")
+
+        ) {
+            document.querySelector("#video-2").pause();
+            document.querySelector("#video-2").currentTime = 0;
+            document.querySelector(`#btn-play-video-2`).classList.replace("btn-invisible","btn-visible");
+            document.querySelector(`#btn-stop-video-2`).classList.replace("btn-visible","btn-invisible");
+          }
+        if(
+          document.querySelector("#btn-play-video-3").classList.contains("btn-invisible") && 
+          document.querySelector("#btn-stop-video-3").classList.contains("btn-visible")
+
+        ) {
+            document.querySelector("#video-3").pause();
+            document.querySelector("#video-3").currentTime = 0;
+            document.querySelector(`#btn-play-video-3`).classList.replace("btn-invisible","btn-visible");
+            document.querySelector(`#btn-stop-video-3`).classList.replace("btn-visible","btn-invisible");
+          }
+        if(
+            document.querySelector("#btn-play-video-4").classList.contains("btn-invisible") && 
+            document.querySelector("#btn-stop-video-4").classList.contains("btn-visible")
+
+        ) {
+            document.querySelector("#video-4").pause();
+            document.querySelector("#video-4").currentTime = 0;
+            document.querySelector(`#btn-play-video-4`).classList.replace("btn-invisible","btn-visible");
+            document.querySelector(`#btn-stop-video-4`).classList.replace("btn-visible","btn-invisible");
+          }
+        if(
+            document.querySelector("#btn-play-video-6").classList.contains("btn-invisible") && 
+            document.querySelector("#btn-stop-video-6").classList.contains("btn-visible")
+
+        ) {
+            document.querySelector("#video-6").pause();
+            document.querySelector("#video-6").currentTime = 0;
+            document.querySelector(`#btn-play-video-6`).classList.replace("btn-invisible","btn-visible");
+            document.querySelector(`#btn-stop-video-6`).classList.replace("btn-visible","btn-invisible");
+          }
+
+
+          document.querySelector(`#btn-play-video-5`).classList.replace("btn-visible","btn-invisible");
+          document.querySelector("#btn-stop-video-5").classList.replace("btn-invisible","btn-visible");
+
+          document.querySelector("#btn-stop-video-5").addEventListener("click",()=>{
+            document.querySelector("#video-5").pause();
+            document.querySelector("#video-5").currentTime = 0;
+            document.querySelector(`#btn-play-video-5`).classList.replace("btn-invisible","btn-visible");
+            document.querySelector("#btn-stop-video-5").classList.replace("btn-visible","btn-invisible");
+          });
+
+          document.querySelector("#video-5").addEventListener("ended", ()=> {
+            document.querySelector(`#btn-play-video-5`).classList.replace("btn-invisible","btn-visible");
+            document.querySelector("#btn-stop-video-5").classList.replace("btn-visible","btn-invisible");
+          });
+        }
+        else if(element.id === "btn-play-video-6") {
+          document.querySelector("#video-6").play();
+
+          if(
+            document.querySelector("#btn-play-video-1").classList.contains("btn-invisible") && 
+            document.querySelector("#btn-stop-video-1").classList.contains("btn-visible")
+
+        ) {
+            document.querySelector("#video-1").pause();
+            document.querySelector("#video-1").currentTime = 0;
+            document.querySelector(`#btn-play-video-1`).classList.replace("btn-invisible","btn-visible");
+            document.querySelector(`#btn-stop-video-1`).classList.replace("btn-visible","btn-invisible");
+          }
+        if(
+            document.querySelector("#btn-play-video-2").classList.contains("btn-invisible") && 
+            document.querySelector("#btn-stop-video-2").classList.contains("btn-visible")
+
+        ) {
+            document.querySelector("#video-2").pause();
+            document.querySelector("#video-2").currentTime = 0;
+            document.querySelector(`#btn-play-video-2`).classList.replace("btn-invisible","btn-visible");
+            document.querySelector(`#btn-stop-video-2`).classList.replace("btn-visible","btn-invisible");
+          }
+        if(
+          document.querySelector("#btn-play-video-3").classList.contains("btn-invisible") && 
+          document.querySelector("#btn-stop-video-3").classList.contains("btn-visible")
+
+        ) {
+            document.querySelector("#video-3").pause();
+            document.querySelector("#video-3").currentTime = 0;
+            document.querySelector(`#btn-play-video-3`).classList.replace("btn-invisible","btn-visible");
+            document.querySelector(`#btn-stop-video-3`).classList.replace("btn-visible","btn-invisible");
+          }
+        if(
+            document.querySelector("#btn-play-video-4").classList.contains("btn-invisible") && 
+            document.querySelector("#btn-stop-video-4").classList.contains("btn-visible")
+
+        ) {
+            document.querySelector("#video-4").pause();
+            document.querySelector("#video-4").currentTime = 0;
+            document.querySelector(`#btn-play-video-4`).classList.replace("btn-invisible","btn-visible");
+            document.querySelector(`#btn-stop-video-4`).classList.replace("btn-visible","btn-invisible");
+          }
+          if(
+            document.querySelector("#btn-play-video-5").classList.contains("btn-invisible") && 
+            document.querySelector("#btn-stop-video-5").classList.contains("btn-visible")
+
+        ) {
+            document.querySelector("#video-5").pause();
+            document.querySelector("#video-5").currentTime = 0;
+            document.querySelector(`#btn-play-video-5`).classList.replace("btn-invisible","btn-visible");
+            document.querySelector(`#btn-stop-video-5`).classList.replace("btn-visible","btn-invisible");
+          }
+
+
+          document.querySelector(`#btn-play-video-6`).classList.replace("btn-visible","btn-invisible");
+          document.querySelector("#btn-stop-video-6").classList.replace("btn-invisible","btn-visible");
+
+          document.querySelector("#btn-stop-video-6").addEventListener("click",()=>{
+            document.querySelector("#video-6").pause();
+            document.querySelector("#video-6").currentTime = 0;
+            document.querySelector(`#btn-play-video-6`).classList.replace("btn-invisible","btn-visible");
+            document.querySelector("#btn-stop-video-6").classList.replace("btn-visible","btn-invisible");
+          });
+
+          document.querySelector("#video-6").addEventListener("ended", ()=> {
+            document.querySelector(`#btn-play-video-6`).classList.replace("btn-invisible","btn-visible");
+            document.querySelector("#btn-stop-video-6").classList.replace("btn-visible","btn-invisible");
           });
         }
       });

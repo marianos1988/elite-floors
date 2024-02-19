@@ -1,0 +1,9 @@
+.container-products {
+    margin-top: 200px;
+}
+
+@media (min-width:350px) AND (max-width:600px) {
+    .container-products {
+        margin-top: 0px;
+    }
+}

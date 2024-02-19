@@ -105,7 +105,7 @@
   background-size: cover;
   cursor: pointer;
   opacity: .4;
-  transform: translate(136px,-7px);
+  transform: translate(136px,-24px);
   
 }
 
@@ -226,6 +226,18 @@
       width: 40px;
       height: 40px;
       transform: translate(108px,-28px);
+    }
+
+    .container-about .container .box  .content h2 {
+
+      font-size: 1.5rem;
+
+    }
+    
+    .container-about .container .box  .content span {
+
+      font-size: 1.3rem;
+
     }
 }
 

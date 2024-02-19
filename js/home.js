@@ -230,5 +230,46 @@ var swiper = new Swiper(".swiper", {
     
   }
 
+  //Send Form Contactus
+  const sendForm = ()=> {
+    document.querySelector("#submit-form-contactus").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      document.querySelector(".message").textContent= ``
+
+
+      const object = {
+        method: "POST",
+        headers: {
+          "Content-Type": "aplicaction/json",
+          "Accept": "aplication/json"
+        },
+        body: JSON.stringify({
+          name: document.querySelector("#form-name").value,
+          email: document.querySelector("#form-email").value,
+          subject: document.querySelector("#form-subject").value,
+          comments: document.querySelector("#form-comments").value,
+        })
+      };
+      try{
+        const JSONData = await fetch("https://formsubmit.co/ajax/mariano.floresta@hotmail.com",object);
+        const data = await JSONData.json();
+        
+        if(data.success) {
+          document.querySelector(".message").style.color=`green`;
+          document.querySelector(".message").textContent=`Message sent`;
+
+        }
+        else {
+          document.querySelector(".message").style.color=`red`;
+          document.querySelector(".message").textContent=`Message not sent`;
+        }
+      } catch(e) {
+        document.querySelector(".message").style.color=`red`;
+        document.querySelector(".message").textContent=`Connection error`;
+      }
+    });
+  }
+
   playVideos();
+  sendForm();
   

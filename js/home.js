@@ -471,10 +471,14 @@ var swiper = new Swiper(".swiper", {
         })
       };
       try{
-        const JSONData = await fetch("https://formsubmit.co/ajax/mariano.floresta@hotmail.com",object);
+        const JSONData = await fetch("https://formsubmit.co/ajax/Elitefloors.co@gmail.com",object);
         const data = await JSONData.json();
         
         if(data.success) {
+          document.querySelector("#form-name").value="";
+          document.querySelector("#form-email").value="";
+          document.querySelector("#form-subject").value="";
+          document.querySelector("#form-comments").value="";
           document.querySelector(".message").style.color=`green`;
           document.querySelector(".message").textContent=`Message sent`;
 

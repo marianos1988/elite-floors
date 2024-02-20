@@ -471,8 +471,10 @@ var swiper = new Swiper(".swiper", {
         })
       };
       try{
-        const JSONData = await fetch("https://formsubmit.co/ajax/Elitefloors.co@gmail.com",object);
+        document.querySelector(".box-spinner").innerHTML=`<div class="spinner"></div>`;
+        const JSONData = await fetch("https://formsubmit.co/ajax/elitefloors.co@gmail.com",object);
         const data = await JSONData.json();
+        document.querySelector(".box-spinner").innerHTML=``;
         
         if(data.success) {
           document.querySelector("#form-name").value="";

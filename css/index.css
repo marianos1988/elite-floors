@@ -166,6 +166,7 @@ header aside a {
   display: flex;
   align-items: center;
   height: 50px;
+  text-decoration: none;
 }
 
 header aside a:hover {
@@ -190,6 +191,7 @@ header aside button {
   font-family: inherit;
   font-size: 16px;
   margin-top: 20px;
+
 }
 
 section.container-all-footer {
@@ -260,6 +262,12 @@ footer .links .links-column a {
   text-align: center;
   font-size: 1rem;
   cursor: pointer;
+  text-decoration: none;
+  text-decoration-color: none;
+  color: rgb(255 255 255 / 50%);
+}
+footer .links .links-column a:visited {
+color: inherit;
 }
 
 footer .links .links-column a:hover {

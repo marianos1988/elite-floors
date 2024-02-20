@@ -56,7 +56,7 @@
 	position: relative;
 	padding: 20px 0;
 	display: flex;
-	cursor: pointer;
+	
 }
 .container-contactus .container .contactInfo .box .icon 
 {
@@ -70,8 +70,14 @@
 	transition: 0.5s;
     transform: translate(0px,15px);
     border-radius: 10%;
+	cursor: pointer;
 }
-.container-contactus .container .contactInfo .box:hover .icon 
+
+.container-contactus .container .contactInfo .box .icon:visited
+{
+color: inherit;
+}
+.container-contactus .container .contactInfo .box .icon:hover 
 {
 	background: #8700ff;
 	color: #fff;

@@ -471,6 +471,7 @@ var swiper = new Swiper(".swiper", {
         })
       };
       try{
+        
         document.querySelector(".box-spinner").innerHTML=`<div class="spinner"></div>`;
         const JSONData = await fetch("https://formsubmit.co/ajax/elitefloors.co@gmail.com",object);
         const data = await JSONData.json();

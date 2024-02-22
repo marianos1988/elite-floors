@@ -72,13 +72,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    transition: all 0.5s ease-in-out;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+}
+
+.container-about .container .box  .imgBox .box-spinner-video-1,
+.container-about .container .box  .imgBox .box-spinner-video-2,
+.container-about .container .box  .imgBox .box-spinner-video-3,
+.container-about .container .box  .imgBox .box-spinner-video-4,
+.container-about .container .box  .imgBox .box-spinner-video-5,
+.container-about .container .box  .imgBox .box-spinner-video-6 {
+  position: absolute;
+  z-index: 98;
 }
 
 .container-about .container .box .imgBox .btn-play-video,

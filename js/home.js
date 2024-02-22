@@ -22,6 +22,37 @@ var swiper = new Swiper(".swiper", {
     },
   });
 
+  //Load Videos About
+
+  const loadVideos = () => {
+
+    document.querySelector("#video-1").addEventListener("loadedmetadata",()=>{
+      document.querySelector(".box-spinner-video-1").innerHTML=``;
+      document.querySelector("#btn-play-video-1").classList.replace("btn-invisible","btn-visible");
+    });
+    document.querySelector("#video-2").addEventListener("loadedmetadata",()=>{
+      document.querySelector(".box-spinner-video-2").innerHTML=``;
+      document.querySelector("#btn-play-video-2").classList.replace("btn-invisible","btn-visible");
+    });
+    document.querySelector("#video-3").addEventListener("loadedmetadata",()=>{
+      document.querySelector(".box-spinner-video-3").innerHTML=``;
+      document.querySelector("#btn-play-video-3").classList.replace("btn-invisible","btn-visible");
+    });
+    document.querySelector("#video-4").addEventListener("loadedmetadata",()=>{
+      document.querySelector(".box-spinner-video-4").innerHTML=``;
+      document.querySelector("#btn-play-video-4").classList.replace("btn-invisible","btn-visible");
+    });
+    document.querySelector("#video-5").addEventListener("loadedmetadata",()=>{
+      document.querySelector(".box-spinner-video-5").innerHTML=``;
+      document.querySelector("#btn-play-video-5").classList.replace("btn-invisible","btn-visible");
+    });
+    document.querySelector("#video-6").addEventListener("loadedmetadata",()=>{
+      document.querySelector(".box-spinner-video-6").innerHTML=``;
+      document.querySelector("#btn-play-video-6").classList.replace("btn-invisible","btn-visible");
+    });
+
+    playVideos();
+  }
   // Videos About us
   const playVideos = () => {
     allPlaysButtons = document.querySelectorAll(".btn-play-video");
@@ -496,7 +527,6 @@ var swiper = new Swiper(".swiper", {
       }
     });
   }
-
-  playVideos();
+  loadVideos();
   sendForm();
   

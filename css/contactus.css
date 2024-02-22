@@ -1,13 +1,6 @@
 .container-contactus {
 
-    background: linear-gradient(0deg, rgba(3,3,3,1) 0%, rgb(39, 38, 41) 100%);
-    padding: 10px;
-    box-shadow: 0px 0px 16px 7px rgba(255,255,255,0.75);
-    -webkit-box-shadow: 0px 0px 16px 7px rgba(255,255,255,0.75);
-    -moz-box-shadow: 0px 0px 16px 7px rgba(255,255,255,0.75);
-    background-color: #000;
-    border-radius: 15px;
-    margin-top: 200px;
+
 
 	min-height: 100vh;
     width: 100%;
@@ -20,7 +13,11 @@
 }
 
 .container-contactus .content 
-{
+{	margin-top: 200px;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	max-width: 800px;
 	text-align: center;
 }
@@ -37,13 +34,23 @@
 	font-weight: 300;
 }
 .container-contactus .container 
+
 {
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	min-width: 330px;
 	gap: 50px;
 	margin-top: 30px;
+	background: linear-gradient(0deg, rgba(3,3,3,1) 0%, rgb(39, 38, 41) 100%);
+    padding: 10px;
+    box-shadow: 0px 0px 16px 7px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 0px 0px 16px 7px rgba(255,255,255,0.75);
+    -moz-box-shadow: 0px 0px 16px 7px rgba(255,255,255,0.75);
+    background-color: #000;
+    border-radius: 15px;
+
 }
 .container-contactus .container .contactInfo 
 {
@@ -253,6 +260,10 @@ color: inherit;
     .container-contactus {
         margin-top: 20px;
     }
+
+	.container-contactus .content{
+		margin-top: 200px;
+	}
 }
 
 @media (min-width:350px) AND (max-width: 377px) {

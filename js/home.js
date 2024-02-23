@@ -478,7 +478,7 @@ var swiper = new Swiper(".swiper", {
       });
     });
     
-  }
+  } 
 
   //Load Photos Gallery
   const loadPhotos = (quanPhotos) => {

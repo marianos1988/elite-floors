@@ -23,7 +23,6 @@ var swiper = new Swiper(".swiper", {
   });
 
   //Load Videos About
-
   const loadVideos = () => {
 
     document.querySelector("#video-1").addEventListener("loadedmetadata",()=>{
@@ -481,6 +480,18 @@ var swiper = new Swiper(".swiper", {
     
   }
 
+  //Load Photos Gallery
+  const loadPhotos = (quanPhotos) => {
+
+    for(let x=1;x<=quanPhotos;x++) {
+      document.querySelector(`.image-gallery-${x}`).addEventListener("load",()=>{
+        document.querySelector(`.spinner-image-${x}`).innerHTML=``;
+      });
+    }
+
+    }
+
+
   //Send Form Contactus
   const sendForm = ()=> {
     document.querySelector("#submit-form-contactus").addEventListener("submit", async (e) => {
@@ -527,6 +538,7 @@ var swiper = new Swiper(".swiper", {
       }
     });
   }
-  loadVideos();
-  sendForm();
+  loadPhotos(42);
+  // loadVideos();
+  // sendForm();
   

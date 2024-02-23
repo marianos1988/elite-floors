@@ -33,6 +33,23 @@
     border-radius: 15px;
    
 }
+.container-gallery .all-img-gallery a {
+    position: relative;
+
+
+   
+}
+
+.container-gallery .all-img-gallery .box-spinner {
+    position: absolute;
+    z-index: 98;
+    width: 50%; /* Ancho del elemento centrado */
+    height: 50px; /* Altura del elemento centrado */
+    top: 50%;
+    left: 65%;
+    transform: translate(-35%, -50%);
+   
+}
 .container-gallery .all-img-gallery img {
     width: 350px;
     height: 350px;

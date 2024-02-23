@@ -397,6 +397,7 @@ footer.top .socials > a {
 
   footer.top .socials {
     position: static;
+    transform: translateX(40px);
   }
 
   footer.bottom {

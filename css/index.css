@@ -116,6 +116,7 @@ body.open .overlay {
 
 main {
   padding: 10px 30px;
+  animation: aparecer ease-in;
 }
 
 header aside button {
@@ -435,5 +436,14 @@ footer.top .socials > a {
     border-radius: 10%;
     width: 100%;
     
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

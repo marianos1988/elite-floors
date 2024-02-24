@@ -1,7 +1,5 @@
 .container-contactus {
 
-
-
 	min-height: 100vh;
     width: 100%;
 	display: flex;
@@ -241,12 +239,10 @@ color: inherit;
 /* lets make it responsive */
 
 @media (min-width: 350px) AND (max-width:600px)  {
-    .container-contactus {
-        margin-top: 20px;
-    }
+
 
 	.container-contactus .content{
-		margin-top: 200px;
+		margin-top: 0px;
 	}
 }
 

@@ -536,6 +536,7 @@ document.querySelector(".select-home").addEventListener("click",()=>{
   toggleMenu();
   document.querySelector(".principal-main").innerHTML= ``;
   document.querySelector(".principal-main").innerHTML=index;
+  history.pushState({},"","/index.html");
 
     // Carousel Home
   var swiper = new Swiper(".swiper", {
@@ -557,6 +558,12 @@ document.querySelector(".select-home").addEventListener("click",()=>{
       clickable: false,
     },
   });
+
+  window.scroll({
+    top: 0,
+    left: 0,
+    behavior: 'smooth' // Desplazamiento suave
+  });
 });
 
 //select-home footer
@@ -564,6 +571,7 @@ document.querySelector("#select-home").addEventListener("click",()=>{
 
   document.querySelector(".principal-main").innerHTML= ``;
   document.querySelector(".principal-main").innerHTML=index;
+  history.pushState({},"","/index.html");
 
     // Carousel Home
   var swiper = new Swiper(".swiper", {
@@ -586,7 +594,7 @@ document.querySelector("#select-home").addEventListener("click",()=>{
     },
   });
   window.scroll({
-    top: 200,
+    top: 0,
     left: 0,
     behavior: 'smooth' // Desplazamiento suave
   });
@@ -599,18 +607,24 @@ document.querySelector(".select-gallery").addEventListener("click",()=>{
   document.querySelector(".principal-main").innerHTML= ``;
   document.querySelector(".principal-main").innerHTML=gallery;
   loadPhotos(42);
+  window.scroll({
+    top: 0,
+    left: 0,
+    behavior: 'smooth' // Desplazamiento suave
+  });s
 });
 
 //select-gallery footer
 document.querySelector("#select-gallery").addEventListener("click",()=>{
   document.querySelector(".principal-main").innerHTML= ``;
   document.querySelector(".principal-main").innerHTML=gallery;
-  loadPhotos(42);
   window.scroll({
-    top: 200,
+    top: 0,
     left: 0,
     behavior: 'smooth' // Desplazamiento suave
   });
+  loadPhotos(42);
+
 });
 
 //Select-about
@@ -619,6 +633,11 @@ document.querySelector(".select-about").addEventListener("click",()=>{
   document.querySelector(".principal-main").innerHTML= ``;
   document.querySelector(".principal-main").innerHTML=about;
   loadVideos();
+  window.scroll({
+    top: 0,
+    left: 0,
+    behavior: 'smooth' // Desplazamiento suave
+  });
 
 });
 
@@ -628,7 +647,7 @@ document.querySelector("#select-about").addEventListener("click",()=>{
   document.querySelector(".principal-main").innerHTML=about;
   loadVideos();
   window.scroll({
-    top: 200,
+    top: 0,
     left: 0,
     behavior: 'smooth' // Desplazamiento suave
   });
@@ -640,7 +659,13 @@ document.querySelector(".select-contactus").addEventListener("click",()=>{
   document.querySelector(".principal-main").innerHTML= ``;
   document.querySelector(".principal-main").innerHTML=contactus;
   sendForm();
+  window.scroll({
+    top: 0,
+    left: 0,
+    behavior: 'smooth' // Desplazamiento suave
+  });
 });
+
 
 //Select-contactus footer
 document.querySelector("#select-contactus").addEventListener("click",()=>{
@@ -648,7 +673,7 @@ document.querySelector("#select-contactus").addEventListener("click",()=>{
   document.querySelector(".principal-main").innerHTML=contactus;
   sendForm();
   window.scroll({
-    top: 200,
+    top: 0,
     left: 0,
     behavior: 'smooth' // Desplazamiento suave
   });
@@ -657,15 +682,8 @@ document.querySelector("#select-contactus").addEventListener("click",()=>{
 //Select-products
 document.querySelector(".select-products").addEventListener("click",()=>{
   toggleMenu();
-  document.querySelector(".principal-main").innerHTML= ``;
-  document.querySelector(".principal-main").innerHTML=products;
-  sendForm();
-});
-
-//Select-products footer
-document.querySelector("#select-products").addEventListener("click",()=>{
   window.scroll({
-    top: 200,
+    top: 0,
     left: 0,
     behavior: 'smooth' // Desplazamiento suave
   });
@@ -673,6 +691,19 @@ document.querySelector("#select-products").addEventListener("click",()=>{
   document.querySelector(".principal-main").innerHTML=products;
   sendForm();
 
+});
+
+//Select-products footer
+document.querySelector("#select-products").addEventListener("click",()=>{
+
+  document.querySelector(".principal-main").innerHTML= ``;
+  document.querySelector(".principal-main").innerHTML=products;
+  sendForm();
+  window.scroll({
+    top: 0,
+    left: 0,
+    behavior: 'smooth' // Desplazamiento suave
+  });
 });
 
 

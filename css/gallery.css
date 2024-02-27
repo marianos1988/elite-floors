@@ -14,6 +14,8 @@
     font-size: 3rem;
 }
 
+
+
 .container-gallery .all-img-gallery {
     display: flex;
     justify-content: center;
@@ -36,8 +38,6 @@
 .container-gallery .all-img-gallery a {
     position: relative;
 
-
-   
 }
 
 .container-gallery .all-img-gallery .box-spinner {

@@ -46,6 +46,7 @@
 .container-products .box-all .box-floor .box-floor-horizontal .box-floor-vertical {
     display: flex;
     flex-direction: column;
+    min-width: 300px;
 }
 
 .container-products .box-all .box-floor .box-floor-horizontal .box-floor-vertical .name-floor {

@@ -243,7 +243,7 @@ const products = `
             <div class="description-floor">
               <p>- Browns and white flake</p><br>
               <p>- Hides subsurface imperfections</p><br>
-              <p>- White, grey, brown and black flake</p><br>
+              <p>- Suitable in many environments</p><br>
             </div>
           </div>
         </div>
@@ -256,7 +256,7 @@ const products = `
             <div class="description-floor">
               <p>- White, grey, brown and black flake</p><br>
               <p>- Hides subsurface imperfections</p><br>
-              <p>- Cost effective alter native to pre-engineered</p><br>
+              <p>- Cost effective alternative to pre-engineered</p><br>
             </div>
           </div>
         </div>
@@ -282,7 +282,7 @@ const products = `
             <div class="description-floor">
               <p>- Features black, white and grey flakes</p><br>
               <p>- Hides subsurface imperfections</p><br>
-              <p>- Suitable in many envireonments</p><br>
+              <p>- Suitable in many environments</p><br>
             </div>
           </div>
         </div>
@@ -295,7 +295,7 @@ const products = `
             <div class="description-floor">
               <p>- Black, white, blue and browns flake</p><br>
               <p>- Infinite custom blending options</p><br>
-              <p>- Suitable in many envireonments</p><br>
+              <p>- Suitable in many environments</p><br>
             </div>
           </div>
         </div>
@@ -331,7 +331,7 @@ const products = `
             <h3 class="name-floor">Comet</h3>
             <div class="description-floor">
               <p>- Blend of blue, white, grey, dark grey and black</p><br>
-              <p>- Suitable in many envireonments</p><br>
+              <p>- Suitable in many environments</p><br>
             </div>
           </div>
         </div>
@@ -368,7 +368,7 @@ const products = `
             <div class="description-floor">
               <p>- Black, grey, and white flake</p><br>
               <p>- Hides subsurface imperfections</p><br>
-              <p>- Suitable in many envireonments</p><br>
+              <p>- Suitable in many environments</p><br>
             </div>
           </div>
         </div>
@@ -396,7 +396,7 @@ const products = `
             <div class="description-floor">
               <p>- Browns and greys flake</p><br>
               <p>- Hides subsurface imperfections</p><br>
-              <p>- Suitable in many envireonments</p><br>
+              <p>- Suitable in many environments</p><br>
             </div>
           </div>
         </div>
@@ -409,7 +409,7 @@ const products = `
             <div class="description-floor">
               <p>- Browns flake</p><br>
               <p>- Hides subsurface imperfections</p><br>
-              <p>- Suitable in many envireonments</p><br>
+              <p>- Suitable in many environments</p><br>
             </div>
           </div>
         </div>
@@ -422,7 +422,7 @@ const products = `
             <div class="description-floor">
               <p>- Browns and greys flake</p><br>
               <p>- Hides subsurface imperfections</p><br>
-              <p>- Suitable in many envireonments</p><br>
+              <p>- Suitable in many environments</p><br>
             </div>
           </div>
         </div>
@@ -448,7 +448,7 @@ const products = `
                 <div class="description-floor">
                   <p>- Browns and Greys  flake</p><br>
                   <p>- Hides subsurface imperfections</p><br>
-                  <p>- Suitable in many envireonments</p><br>
+                  <p>- Suitable in many environments</p><br>
                 </div>
               </div>
             </div>
@@ -536,7 +536,7 @@ document.querySelector(".select-home").addEventListener("click",()=>{
   toggleMenu();
   document.querySelector(".principal-main").innerHTML= ``;
   document.querySelector(".principal-main").innerHTML=index;
-  history.pushState({},"","/index.html");
+
 
     // Carousel Home
   var swiper = new Swiper(".swiper", {
@@ -571,7 +571,6 @@ document.querySelector("#select-home").addEventListener("click",()=>{
 
   document.querySelector(".principal-main").innerHTML= ``;
   document.querySelector(".principal-main").innerHTML=index;
-  history.pushState({},"","/index.html");
 
     // Carousel Home
   var swiper = new Swiper(".swiper", {
@@ -612,6 +611,11 @@ document.querySelector(".select-gallery").addEventListener("click",()=>{
     left: 0,
     behavior: 'smooth' // Desplazamiento suave
   });s
+
+  document.querySelector(".btn-reload-img").addEventListener("click",()=>{
+    document.querySelector(".all-img-gallery").innerHTML= ``;
+
+  });
 });
 
 //select-gallery footer

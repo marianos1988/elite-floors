@@ -364,7 +364,7 @@ const products = `
         <div class="box-floor-horizontal">
           <img src="./img/products/Wombatgrey.jpg" alt="">
           <div class="box-floor-vertical">
-            <h3 class="name-floor">Wombat Gresy</h3>
+            <h3 class="name-floor">Wombat Grey</h3>
             <div class="description-floor">
               <p>- Black, grey, and white flake</p><br>
               <p>- Hides subsurface imperfections</p><br>

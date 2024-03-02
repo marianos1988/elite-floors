@@ -133,6 +133,10 @@ const gallery = `
       <a href="./img/instalados/40.jpg" target="_blank"><div class="box-spinner spinner-image-40"><div class="spinner"></div></div><img class="image-gallery-40" src="./img/instalados/40.jpg" alt="image-40"></a>
       <a href="./img/instalados/41.jpg" target="_blank"><div class="box-spinner spinner-image-41"><div class="spinner"></div></div><img class="image-gallery-41" src="./img/instalados/41.jpg" alt="image-41"></a>
       <a href="./img/instalados/42.jpg" target="_blank"><div class="box-spinner spinner-image-42"><div class="spinner"></div></div><img class="image-gallery-42" src="./img/instalados/42.jpg" alt="image-42"></a>
+      <a href="./img/instalados/43.jpg" target="_blank"><div class="box-spinner spinner-image-43"><div class="spinner"></div></div><img class="image-gallery-43" src="./img/instalados/43.jpg" alt="image-43"></a>
+      <a href="./img/instalados/44.jpg" target="_blank"><div class="box-spinner spinner-image-44"><div class="spinner"></div></div><img class="image-gallery-44" src="./img/instalados/44.jpg" alt="image-44"></a>
+      <a href="./img/instalados/45.jpg" target="_blank"><div class="box-spinner spinner-image-45"><div class="spinner"></div></div><img class="image-gallery-45" src="./img/instalados/45.jpg" alt="image-45"></a>
+      <a href="./img/instalados/46.jpg" target="_blank"><div class="box-spinner spinner-image-46"><div class="spinner"></div></div><img class="image-gallery-46" src="./img/instalados/46.jpg" alt="image-46"></a>
     </div>
   </article>
 `;
@@ -387,6 +391,9 @@ const products = `
       </div>
     </div>
     <h2 class="tittle-products">Premium Floors</h2>
+    <h3 class="subtittle-products">
+      Our natural elite stone marble series flake provides the natural beauty of stone slate look. It's durable and abrasion resistance. Elite stone slate marble premium flake provide a cost effective alternative to floors.
+    </h3>
     <div class="box-all">
       <div class="box-floor">
         <div class="box-floor-horizontal">
@@ -605,7 +612,7 @@ document.querySelector(".select-gallery").addEventListener("click",()=>{
   toggleMenu();
   document.querySelector(".principal-main").innerHTML= ``;
   document.querySelector(".principal-main").innerHTML=gallery;
-  loadPhotos(42);
+  loadPhotos(46);
   window.scroll({
     top: 0,
     left: 0,

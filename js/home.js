@@ -490,8 +490,8 @@ const contactus = `
         </div>
         <h2 class="txt">Connect with us</h2>
         <ul class="sci">
-          <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-          <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+          <li><a href="https://www.facebook.com/people/Elite-Floors/61556509425375/?mibextid=ZbWKwL" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a href="https://www.instagram.com/elitefloorsllc?igsh=NnNteGhlc3B2dGQ4" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
         </ul>
       </div>
       <div class="contactForm">
@@ -532,7 +532,7 @@ const contactus = `
 const toggleMenu = () => document.body.classList.toggle("open");
 
 //select-home
-document.querySelector(".select-home").addEventListener("click",()=>{
+document.querySelector(".select-home").addEventListener("click",() =>{
   toggleMenu();
   document.querySelector(".principal-main").innerHTML= ``;
   document.querySelector(".principal-main").innerHTML=index;

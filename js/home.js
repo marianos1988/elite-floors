@@ -146,7 +146,7 @@ const about = `
     <h2 class="about-tittle">About us</h2>
     <div class="box-about-us">
       <p>
-        At ELITE FLOORS we specialize in creating stunning floors and coating that leave everyone speechless.
+        At ELITE FLOORS we specialize in creating stunning floors and coatings that leave everyone speechless.
         As a family-owned business, building reltionships with our customers is important. We take care of our community and want to be known of such. We use quality products, offer exceptional service, and have the best warranties for our customers. We can help get a versatile floor that brings you confort every day.
 
         <br>

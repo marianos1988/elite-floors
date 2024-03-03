@@ -20,6 +20,17 @@
 
 }
 
+.container-about .box-about-us .desc-center {
+  text-align: center;
+  min-width: 300px;
+}
+
+.container-about .box-about-us .desc-center img {
+  width: 30px;
+  height: 30px;
+  transform: translateY(6px);
+}
+
 .container-about .about-tittle {
 
     font-family: 'Roboto Condensed', sans-serif;

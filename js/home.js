@@ -59,7 +59,7 @@ const index = `
             <div class="content">
               <span class="stars"></span>
               <h2 class="python">Luxury Experience, Affordable Price</h2>
-              <p class="python">We have a longstanding partnership with Sherwin Williams, allowing us to offer lower prices for the best products.</p>
+              <p class="python">We have a longstanding partnership with Surface Koatings Inc, allowing us to offer lower prices for the best products.</p>
             </div>
           </div>
           <div class="face face2">

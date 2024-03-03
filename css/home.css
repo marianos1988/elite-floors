@@ -259,6 +259,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  .container-why-cards .container .card .face.face1 p {
+    font-size: .9rem;
+  }
   .container-why-cards .container .card .face.face2 {
     transition: 0.5s;
   }

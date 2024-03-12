@@ -134,6 +134,52 @@
   
 /* End carousel internal external */
 
+.container-areas {
+  box-sizing: border-box;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-areas .area-tittle {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 3rem;
+}
+
+.container-areas .all-areas {
+  margin: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(0deg, rgba(3,3,3,1) 0%, rgb(39, 38, 41) 100%);
+  padding: 10px;
+  box-shadow: 0px 0px 16px 7px rgba(255,255,255,0.75);
+  -webkit-box-shadow: 0px 0px 16px 7px rgba(255,255,255,0.75);
+  -moz-box-shadow: 0px 0px 16px 7px rgba(255,255,255,0.75);
+  background-color: #000;
+  border-radius: 15px;
+}
+.container-areas .all-areas a {
+  text-decoration: none;
+  color: #fff;
+}
+.container-areas .all-areas .box-area {
+  display: flex;
+  gap: 10px;
+  width: 300px;
+}
+
+.container-areas .all-areas .box-area:hover {
+  color:#b769fc;
+  cursor: pointer;
+  transition: color .4s ease-in;
+}
+
 .container-why {
     box-sizing: border-box;
     margin-top: 40px;
@@ -314,6 +360,13 @@
     .container-why .why-tittle {
 
         font-size: 2rem;
+    }
+
+    .container-areas .area-tittle {
+      font-size: 2rem;
+    }
+    .container-areas .all-areas .box-area {
+      margin-left: 20%;
     }
 }
 

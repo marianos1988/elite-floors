@@ -37,6 +37,35 @@ const index = `
       </div>
     </div>
   </article>
+  <article class="container-areas">
+    <h2 class="area-tittle">Coverage of our areas</h2>
+    <div class="all-areas">
+      <a href="https://maps.app.goo.gl/YFqExrTgQv18DSDf8" target="_blank">
+        <div class="box-area">
+          <img src="./img/location.png" alt="Location">
+          <p>Hilton Head Island</p>
+        </div>
+      </a>
+      <a href="https://maps.app.goo.gl/yHPwHwnapKqGSEQ26" target="_blank">
+        <div class="box-area">
+          <img src="./img/location.png" alt="Location">
+          <p>Bluffton SC</p>
+        </div>
+      </a>
+      <a href="https://maps.app.goo.gl/fXZct1ktAkJSHqFs6" target="_blank">
+        <div class="box-area">
+          <img src="./img/location.png" alt="Location">
+          <p>Beaufort SC</p>
+        </div>
+      </a>
+      <a href="https://maps.app.goo.gl/o1RiRcXPsiPbKvf59" target="_blank">
+        <div class="box-area">
+          <img src="./img/location.png" alt="Location">
+          <p>Savannah GA</p>
+        </div>
+      </a>
+    </div>
+  </article>
   <article class="container-why">
     <h2 class="why-tittle">Why Choose Us?</h2>
     <div class="container-why-cards">
@@ -634,7 +663,7 @@ document.querySelector(".select-gallery").addEventListener("click",()=>{
     top: 0,
     left: 0,
     behavior: 'smooth' // Desplazamiento suave
-  });s
+  });
 
   document.querySelector(".btn-reload-img").addEventListener("click",()=>{
     document.querySelector(".all-img-gallery").innerHTML= ``;

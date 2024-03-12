@@ -38,7 +38,7 @@ const index = `
     </div>
   </article>
   <article class="container-areas">
-    <h2 class="area-tittle">Coverage of our areas</h2>
+    <h2 class="area-tittle">Coverage of areas</h2>
     <div class="all-areas">
       <a href="https://maps.app.goo.gl/YFqExrTgQv18DSDf8" target="_blank">
         <div class="box-area">
@@ -205,8 +205,8 @@ const about = `
           <video src="./img/cards-about/1.mp4" id="video-1"></video>
         </div>
         <div class="content">
-          <h2>Polishing</br>
-            <span>Make Ploshing</span>
+          <h2>DIAMOND GRINDING</br>
+            <span>Grinding the Floor</span>
           </h2>
           <button class="btn-stop-video btn-invisible" id="btn-stop-video-1"></button>
         </div>
@@ -218,8 +218,8 @@ const about = `
           <video src="./img/cards-about/2.mp4" id="video-2"></video>
         </div>
         <div class="content">
-          <h2>Premier</br>
-            <span>Premier slayer</span>
+          <h2>ELITEPRIME 100</br>
+            <span>Polyurea primer</span>
           </h2>
           <button class="btn-stop-video btn-invisible" id="btn-stop-video-2"></button>
         </div>
@@ -231,8 +231,8 @@ const about = `
           <video src="./img/cards-about/3.mp4" id="video-3"></video>
         </div>
         <div class="content">
-          <h2>Second</br>
-            <span>Second slayer</span>
+          <h2>SECOND</br>
+            <span>Polyurea primer</span>
           </h2>
           <button class="btn-stop-video btn-invisible" id="btn-stop-video-3"></button>
         </div>
@@ -244,8 +244,8 @@ const about = `
           <video src="./img/cards-about/4.mp4" id="video-4"></video>
         </div>
         <div class="content">
-          <h2>Acrilic</br>
-            <span>Installing Acrilic</span>
+          <h2>ACRYLIC</br>
+            <span>Vynil Flakes</span>
           </h2>
           <button class="btn-stop-video btn-invisible" id="btn-stop-video-4"></button>
         </div>
@@ -257,7 +257,7 @@ const about = `
           <video src="./img/cards-about/5.mp4" id="video-5"></video>
         </div>
         <div class="content">
-          <h2>Poly Clear</br> 
+          <h2>ELITETHANE 90</br> 
             <span>Placing Poly Clear</span>
           </h2>
           <button class="btn-stop-video btn-invisible" id="btn-stop-video-5"></button>
@@ -270,8 +270,8 @@ const about = `
           <video src="./img/cards-about/6.mp4" id="video-6"></video>
         </div>
         <div class="content">
-          <h2>Sealant</br>
-            <span>Finishing sealant</span>
+          <h2>POLYASPARTIC</br>
+            <span>Urethane Topcoat</span>
           </h2>
           <button class="btn-stop-video btn-invisible" id="btn-stop-video-6"></button>
         </div>

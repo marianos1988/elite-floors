@@ -143,7 +143,7 @@
   background-size: cover;
   cursor: pointer;
   opacity: .4;
-  transform: translate(136px,-24px);
+  transform: translate(126px,-233px);
   
 }
 
@@ -272,9 +272,9 @@
       height: 45px;
     }
     .container-about .container .box .content .btn-stop-video {
-      width: 40px;
-      height: 40px;
-      transform: translate(108px,-28px);
+      width: 38px;
+      height: 38px;
+      transform: translate(116px,9px);
     }
 
     .container-about .container .box  .content h2 {

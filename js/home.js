@@ -530,8 +530,15 @@ const contactus = `
         <div class="box">
           <a href="tel:+18434226300"><div class="icon"><ion-icon name="call-outline"></ion-icon></div></a>
           <div class="text">
-            <h3>Phone</h3>
+            <h3>Phone 1</h3>
             <p>+1-843-4226300</p>
+          </div>
+        </div>
+        <div class="box">
+          <a href="tel:+14703519067"><div class="icon"><ion-icon name="call-outline"></ion-icon></div></a>
+          <div class="text">
+            <h3>Phone 2</h3>
+            <p>+1-470-3519067</p>
           </div>
         </div>
         <div class="box">

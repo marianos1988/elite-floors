@@ -252,10 +252,10 @@ color: inherit;
 	}
 }
 
-@media (min-width:350px) AND (max-width: 432px) {
+@media (min-width:350px) AND (max-width: 505px) {
     .container-contactus .container .contactInfo .box .text p {
         transform: translate(-78px,0px);
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .container-contactus .container .contactInfo .sci {
         justify-content: center;

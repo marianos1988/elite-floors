@@ -59,7 +59,71 @@
     -moz-box-shadow: 0px 0px 16px 7px rgba(255,255,255,0.75);
     border-radius: 15px;
   }
-  
+.container-about .container .box-descriptions-general {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-about .container .box-descriptions-general .box-description h2 {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.5rem;
+}
+
+.container-about .container .box-descriptions-general .box-description .text-description .paragraph {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.container-about .container .box-descriptions-general .box-description .text-description .paragraph img {
+  width: 25px;
+  height: 25px;
+  transform: translateY(16px);
+  margin-right: 1%;
+}
+
+.container-about .container h2 {
+  margin-top: 55px;
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.5rem;
+
+}
+
+.container-about .container h2.our-videos {
+  transform: translateY(45px);
+}
+
+.container-about .container .box-descriptions-general .box-description .text-description .paragraph p {
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: -10px;
+
+}
+
+.container-about .container .box-img-desription {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container-about .container .box-img-desription img {
+
+  width: 450px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 30px;
+  box-shadow: 0px 0px 8px 3px rgba(255,255,255,0.75);
+  -webkit-box-shadow: 0px 0px 8px 3px rgba(255,255,255,0.75);
+  -moz-box-shadow: 0px 0px 8px 3px rgba(255,255,255,0.75);
+}
+
 .container-about .container .box {
     position: relative;
     width: 350px;
@@ -248,7 +312,16 @@
       margin-right: 0px;
       margin-top: 100px;
       margin-bottom: 25px;
+    }
+    .container-about .container .box-img-desription img {
+      transform: scale(.65);
+    }
   }
+  @media (min-width:431px) AND (max-width:530px) {
+
+    .container-about .container .box-img-desription img {
+      transform: scale(.8);
+    }
   }
 
 

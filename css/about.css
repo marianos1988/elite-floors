@@ -82,7 +82,7 @@
 .container-about .container .box-descriptions-general .box-description .text-description .paragraph img {
   width: 25px;
   height: 25px;
-  transform: translateY(16px);
+  transform: translateY(13px);
   margin-right: 1%;
 }
 
@@ -360,6 +360,14 @@
 
       font-size: 1.1rem;
 
+    }
+
+    .container-about .container h2 {
+      font-size: 1.8rem;
+    }
+
+    .container-about .container .box-descriptions-general .box-description h2 {
+      font-size: 1.8rem;
     }
 }
 

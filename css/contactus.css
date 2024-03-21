@@ -284,4 +284,7 @@ color: inherit;
 	{
 		padding: 50px 30px;
 	}
+	.container-contactus .container .contactInfo .box {
+		margin-left: 20px;
+	}
 }

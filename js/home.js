@@ -1,32 +1,32 @@
 // Index
 const index = `
   <article class="container-card-presentation">
-    <h2 class="card-presentation-tittle">Interior and exterior flooring</h2>
+    <h2 class="card-presentation-tittle">Specialists in interior and exterior flooring</h2>
     <div class="carousel-internal-external">
       <div class="carousel">
         <div class="swiper">
           <div class="swiper-wrapper">
-            <div class="swiper-slide swiper-slide--one">
+            <div class="swiper-slide swiper-slide--one" alt="Garage floor coating">
               <div>
                 <h2>Garage floor coatings</h2>
               </div>
             </div>
-            <div class="swiper-slide swiper-slide--two">
+            <div class="swiper-slide swiper-slide--two" alt="Commercial Coatings">
               <div>
                 <h2>Commercial Coatings</h2>
               </div>
             </div>
-            <div class="swiper-slide swiper-slide--three">
+            <div class="swiper-slide swiper-slide--three" alt="Pool Deck Coatings">
               <div>
                 <h2>Pool Deck Coatings</h2>
               </div>
             </div>
-            <div class="swiper-slide swiper-slide--four">
+            <div class="swiper-slide swiper-slide--four" alt="Patio & Lanai Coatings">
               <div>
                 <h2>Patio & Lanai Coatings</h2>
               </div>
             </div>
-            <div class="swiper-slide swiper-slide--five">
+            <div class="swiper-slide swiper-slide--five" alt="Drive ways">
               <div>
                 <h2>Drive ways</h2>
               </div>
@@ -42,25 +42,25 @@ const index = `
     <div class="all-areas">
       <a href="https://maps.app.goo.gl/YFqExrTgQv18DSDf8" target="_blank">
         <div class="box-area">
-          <img src="./img/location.png" alt="Location">
+          <img src="./img/location.png" alt="Our locations to install our floors">
           <p>Hilton Head Island</p>
         </div>
       </a>
       <a href="https://maps.app.goo.gl/yHPwHwnapKqGSEQ26" target="_blank">
         <div class="box-area">
-          <img src="./img/location.png" alt="Location">
+          <img src="./img/location.png" alt="Our locations to install our floors">
           <p>Bluffton SC</p>
         </div>
       </a>
       <a href="https://maps.app.goo.gl/fXZct1ktAkJSHqFs6" target="_blank">
         <div class="box-area">
-          <img src="./img/location.png" alt="Location">
+          <img src="./img/location.png" alt="Our locations to install our floors">
           <p>Beaufort SC</p>
         </div>
       </a>
       <a href="https://maps.app.goo.gl/o1RiRcXPsiPbKvf59" target="_blank">
         <div class="box-area">
-          <img src="./img/location.png" alt="Location">
+          <img src="./img/location.png" alt="Our locations to install our floors">
           <p>Savannah GA</p>
         </div>
       </a>
@@ -110,7 +110,7 @@ const index = `
         </div>
       </div>
       <div class="container-btn-call">
-        <a href="tel:+18434226300"><button><img src="./img/white-call.png" alt=""><p>Contact us</p></button></a>
+        <a href="tel:+18434226300"><button><img src="./img/white-call.png" alt="Contact us"><p>Contact us</p></button></a>
       </div>
     </div>
   </article>
@@ -179,19 +179,19 @@ const about = `
         As a family-owned business, building reltionships with our customers is important. We take care of our community and want to be known of such. We use quality products, offer exceptional service, and have the best warranties for our customers. We can help get a versatile floor that brings you confort every day.
         <br>
         <p class="desc-center">
-          <img src="./img/ok.png" alt="ok"> AFFORDABLE - Floors Makeovers 
+          <img src="./img/ok.png" alt="AFFORDABLE - Floors Makeovers"> AFFORDABLE - Floors Makeovers 
         </p>
         <p class="desc-center">
-          <img src="./img/ok.png" alt="ok"> QUICK - Transformations in 1 day most cases
+          <img src="./img/ok.png" alt="QUICK - Transformations in 1 day most cases"> QUICK - Transformations in 1 day most cases
         </p>
         <p class="desc-center">
-          <img src="./img/ok.png" alt="ok"> QUALITY - Made from superior Materials
+          <img src="./img/ok.png" alt="QUALITY - Made from superior Materials"> QUALITY - Made from superior Materials
         </p>
         <p class="desc-center">
-          <img src="./img/ok.png" alt="ok"> WARRANTY - Honest & Upfront
+          <img src="./img/ok.png" alt="WARRANTY - Honest & Upfront"> WARRANTY - Honest & Upfront
         </p>
         <p class="desc-center">
-          <img src="./img/ok.png" alt="ok"> CERTIFIED - Autorized installers
+          <img src="./img/ok.png" alt="CERTIFIED - Autorized installers"> CERTIFIED - Autorized installers
         </p>
       </p>
     </div>
@@ -203,19 +203,19 @@ const about = `
           <h2>Floor Prep</h2>
           <div class="text-description">
             <div class="paragraph">
-              <img src="./img/doble-derecha-48.png" alt="Double Right">
+              <img src="./img/doble-derecha-48.png">
               <p>
                 Diamond Grinding the concrete floor is the proper preparation of old or new concrete and is essential for long term adhesion performance.
               </p>
             </div>
             <div class="paragraph">
-              <img src="./img/doble-derecha-48.png" alt="Double Right">
+              <img src="./img/doble-derecha-48.png">
               <p>
                 Hepa vacuum systems are used to help control as much dust as possible in the work area.
               </p>
             </div>
             <div class="paragraph">
-              <img src="./img/doble-derecha-48.png" alt="Double Right">
+              <img src="./img/doble-derecha-48.png">
               <p>
                 Hight strenght urethane crack filler and/or concrete patch is used for prepping cracks, holes and piting for nice uniform final floor finish.
               </p>
@@ -226,25 +226,25 @@ const about = `
           <h2>Our Materials</h2>
           <div class="text-description">
             <div class="paragraph">
-              <img src="./img/doble-derecha-48.png" alt="Double Right">
+              <img src="./img/doble-derecha-48.png">
               <p>
                 Step 1: Apply our ELITEPRIME 100 wich is a low odor 98% solids polyurea primer specially formulated to accept the decorative color flakes. ELITEPRIME 100 can be up to 20 times stronger than most epoxies.
               </p>
             </div>
             <div class="paragraph">
-              <img src="./img/doble-derecha-48.png" alt="Double Right">
+              <img src="./img/doble-derecha-48.png">
               <p>
                 Step 2: Full broadcast of the decorative color acrylic vinyl flakes to achieve a beautiful 100% covered non-skid floor.
               </p>
             </div>
             <div class="paragraph">
-              <img src="./img/doble-derecha-48.png" alt="Double Right">
+              <img src="./img/doble-derecha-48.png">
               <p>
                 Step 3: Once polyurea is dry scraping down the floor in both directions and sweep up excess flake to achieve desired uniform non-skid texture.
               </p>
             </div>
             <div class="paragraph">
-              <img src="./img/doble-derecha-48.png" alt="Double Right">
+              <img src="./img/doble-derecha-48.png">
               <p>
                 Step 4: Apply ELITETHANE 90 which is a low odor 90% solids polyaspartic urethane topcoat. The ELITETHANE 90 is higher in solids than most urethane topcoats. The higher solids topcoat is more UV resistant, hot tire resistant, chemical resistant and scratch resistant.
               </p>
@@ -253,7 +253,7 @@ const about = `
         </div>
       </div>
       <div class="box-img-desription">
-        <img src="./img/cards-about/layers.jpg" alt="">
+        <img src="./img/cards-about/layers.jpg" alt="Elite Floors Co - Floor layers">
       </div>
       <h2 class="our-videos">Our Videos</h2><br>
       <div class="box">
@@ -345,7 +345,7 @@ const products = `
     <div class="box-all">
       <div class="box-floor">
         <div class="box-floor-horizontal">
-          <img src="./img/products/terrier.jpg" alt="">
+          <img src="./img/products/terrier.jpg" alt="Standard Floor - Terrier">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Terrier</h3>
             <div class="description-floor">
@@ -358,7 +358,7 @@ const products = `
       </div>
       <div class="box-floor">
         <div class="box-floor-horizontal">
-          <img src="./img/products/cabinfever.jpg" alt="">
+          <img src="./img/products/cabinfever.jpg" alt="Standard Floor - Cabin Fever">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Cabin Fever</h3>
             <div class="description-floor">
@@ -371,7 +371,7 @@ const products = `
       </div>
       <div class="box-floor">
         <div class="box-floor-horizontal">
-          <img src="./img/products/outback.jpg" alt="">
+          <img src="./img/products/outback.jpg" alt="Standard Floor - Outback">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Outback</h3>
             <div class="description-floor">
@@ -384,7 +384,7 @@ const products = `
       </div>
       <div class="box-floor">
         <div class="box-floor-horizontal">
-          <img src="./img/products/domino.jpg" alt="">
+          <img src="./img/products/domino.jpg" alt="Standard Floor - Domino">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Domino</h3>
             <div class="description-floor">
@@ -397,7 +397,7 @@ const products = `
       </div>
       <div class="box-floor">
         <div class="box-floor-horizontal">
-          <img src="./img/products/coldwatercanyon.jpg" alt="">
+          <img src="./img/products/coldwatercanyon.jpg" alt="Standard Floor - Coldwater Canyon">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Coldwater Canyon</h3>
             <div class="description-floor">
@@ -410,7 +410,7 @@ const products = `
       </div>
       <div class="box-floor two-p">
         <div class="box-floor-horizontal">
-          <img src="./img/products/stonehenge.jpg" alt="">
+          <img src="./img/products/stonehenge.jpg" alt="Standard Floor - Stone Henge">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Stone Henge</h3>
             <div class="description-floor">
@@ -422,7 +422,7 @@ const products = `
       </div>
       <div class="box-floor two-p">
         <div class="box-floor-horizontal">
-          <img src="./img/products/creekbed.jpg" alt="">
+          <img src="./img/products/creekbed.jpg" alt="Standard Floor - Creekbed">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Creekbed</h3>
             <div class="description-floor">
@@ -434,7 +434,7 @@ const products = `
       </div>
       <div class="box-floor two-p">
         <div class="box-floor-horizontal">
-          <img src="./img/products/comet.jpg" alt="">
+          <img src="./img/products/comet.jpg" alt="Standard Floor - Comet">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Comet</h3>
             <div class="description-floor">
@@ -446,7 +446,7 @@ const products = `
       </div>
       <div class="box-floor two-p">
         <div class="box-floor-horizontal">
-          <img src="./img/products/shoreline.jpg" alt="">
+          <img src="./img/products/shoreline.jpg" alt="Standard Floor - Shoreline">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Shoreline</h3>
             <div class="description-floor">
@@ -458,7 +458,7 @@ const products = `
       </div>
       <div class="box-floor two-p">
         <div class="box-floor-horizontal">
-          <img src="./img/products/stonewash.jpg" alt="">
+          <img src="./img/products/stonewash.jpg" alt="Standard Floor - Stonewash">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Stonewash</h3>
             <div class="description-floor">
@@ -470,7 +470,7 @@ const products = `
       </div>
       <div class="box-floor">
         <div class="box-floor-horizontal">
-          <img src="./img/products/Wombatgrey.jpg" alt="">
+          <img src="./img/products/Wombatgrey.jpg" alt="Standard Floor - Wombat Grey">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Wombat Grey</h3>
             <div class="description-floor">
@@ -483,7 +483,7 @@ const products = `
       </div>
       <div class="box-floor two-p">
         <div class="box-floor-horizontal">
-          <img src="./img/products/coyote.jpg" alt="">
+          <img src="./img/products/coyote.jpg" alt="Standard Floor - Coyote">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Coyote</h3>
             <div class="description-floor">
@@ -501,7 +501,7 @@ const products = `
     <div class="box-all">
       <div class="box-floor">
         <div class="box-floor-horizontal">
-          <img src="./img/products/dolerite.jpg" alt="">
+          <img src="./img/products/dolerite.jpg" alt="Premium Floor - Dolerite">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Dolerite</h3>
             <div class="description-floor">
@@ -514,7 +514,7 @@ const products = `
       </div>
       <div class="box-floor">
         <div class="box-floor-horizontal">
-          <img src="./img/products/oahubrown.jpg" alt="">
+          <img src="./img/products/oahubrown.jpg" alt="Premium Floor - Oahubrown">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Oahu Brown</h3>
             <div class="description-floor">
@@ -527,7 +527,7 @@ const products = `
       </div>
       <div class="box-floor">
         <div class="box-floor-horizontal">
-          <img src="./img/products/obsidian.jpg" alt="">
+          <img src="./img/products/obsidian.jpg" alt="Premium Floor - Obsidian">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Obsidian</h3>
             <div class="description-floor">
@@ -540,7 +540,7 @@ const products = `
       </div>
       <div class="box-floor">
         <div class="box-floor-horizontal">
-          <img src="./img/products/lanaigray.jpg" alt="">
+          <img src="./img/products/lanaigray.jpg" alt="Premium Floor - Lanai Gray">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Lanai Gray</h3>
             <div class="description-floor">
@@ -553,7 +553,7 @@ const products = `
       </div>
         <div class="box-floor">
           <div class="box-floor-horizontal">
-            <img src="./img/products/pumice.jpg" alt="">
+            <img src="./img/products/pumice.jpg" alt="Premium Floor - Pumice">
               <div class="box-floor-vertical">
                 <h3 class="name-floor">Pumice</h3>
                 <div class="description-floor">
@@ -811,7 +811,7 @@ document.querySelector(".select-products").addEventListener("click",()=>{
   });
   document.querySelector(".principal-main").innerHTML= ``;
   document.querySelector(".principal-main").innerHTML=products;
-  sendForm();
+
 
 });
 
@@ -820,7 +820,7 @@ document.querySelector("#select-products").addEventListener("click",()=>{
 
   document.querySelector(".principal-main").innerHTML= ``;
   document.querySelector(".principal-main").innerHTML=products;
-  sendForm();
+
   window.scroll({
     top: 0,
     left: 0,

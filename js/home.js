@@ -120,52 +120,52 @@ const gallery = `
   <article class="container-gallery">
     <h2 title="gallery-tittle">Our gallery</h2>
     <div class="all-img-gallery">
-      <a href="./img/instalados/1.jpg" target="_blank"><div class="box-spinner spinner-image-1"><div class="spinner"></div></div><img class="image-gallery-1" src="./img/instalados/1.jpg" alt="image-1"></a>
-      <a href="./img/instalados/2.jpg" target="_blank"><div class="box-spinner spinner-image-2"><div class="spinner"></div></div><img class="image-gallery-2" src="./img/instalados/2.jpg" alt="image-2"></a>
-      <a href="./img/instalados/3.jpg" target="_blank"><div class="box-spinner spinner-image-3"><div class="spinner"></div></div><img class="image-gallery-3" src="./img/instalados/3.jpg" alt="image-3"></a>
-      <a href="./img/instalados/4.jpg" target="_blank"><div class="box-spinner spinner-image-4"><div class="spinner"></div></div><img class="image-gallery-4" src="./img/instalados/4.jpg" alt="image-4"></a>
-      <a href="./img/instalados/5.jpg" target="_blank"><div class="box-spinner spinner-image-5"><div class="spinner"></div></div><img class="image-gallery-5" src="./img/instalados/5.jpg" alt="image-5"></a>
-      <a href="./img/instalados/6.jpg" target="_blank"><div class="box-spinner spinner-image-6"><div class="spinner"></div></div><img class="image-gallery-6" src="./img/instalados/6.jpg" alt="image-6"></a>
-      <a href="./img/instalados/7.jpg" target="_blank"><div class="box-spinner spinner-image-7"><div class="spinner"></div></div><img class="image-gallery-7" src="./img/instalados/7.jpg" alt="image-7"></a>
-      <a href="./img/instalados/8.jpg" target="_blank"><div class="box-spinner spinner-image-8"><div class="spinner"></div></div><img class="image-gallery-8" src="./img/instalados/8.jpg" alt="image-8"></a>
-      <a href="./img/instalados/9.jpg" target="_blank"><div class="box-spinner spinner-image-9"><div class="spinner"></div></div><img class="image-gallery-9" src="./img/instalados/9.jpg" alt="image-9"></a>
-      <a href="./img/instalados/10.jpg" target="_blank"><div class="box-spinner spinner-image-10"><div class="spinner"></div></div><img class="image-gallery-10" src="./img/instalados/10.jpg" alt="image-10"></a>
-      <a href="./img/instalados/11.jpg" target="_blank"><div class="box-spinner spinner-image-11"><div class="spinner"></div></div><img class="image-gallery-11"src="./img/instalados/11.jpg" alt="image-11"></a>
-      <a href="./img/instalados/12.jpg" target="_blank"><div class="box-spinner spinner-image-12"><div class="spinner"></div></div><img class="image-gallery-12" src="./img/instalados/12.jpg" alt="image-12"></a>
-      <a href="./img/instalados/13.jpg" target="_blank"><div class="box-spinner spinner-image-13"><div class="spinner"></div></div><img class="image-gallery-13" src="./img/instalados/13.jpg" alt="image-13"></a>
-      <a href="./img/instalados/14.jpg" target="_blank"><div class="box-spinner spinner-image-14"><div class="spinner"></div></div><img class="image-gallery-14" src="./img/instalados/14.jpg" alt="image-14"></a>
-      <a href="./img/instalados/15.jpg" target="_blank"><div class="box-spinner spinner-image-15"><div class="spinner"></div></div><img class="image-gallery-15" src="./img/instalados/15.jpg" alt="image-15"></a>
-      <a href="./img/instalados/16.jpg" target="_blank"><div class="box-spinner spinner-image-16"><div class="spinner"></div></div><img class="image-gallery-16" src="./img/instalados/1.jpg" alt="image-16"></a>
-      <a href="./img/instalados/17.jpg" target="_blank"><div class="box-spinner spinner-image-17"><div class="spinner"></div></div><img class="image-gallery-17" src="./img/instalados/17.jpg" alt="image-17"></a>
-      <a href="./img/instalados/18.jpg" target="_blank"><div class="box-spinner spinner-image-18"><div class="spinner"></div></div><img class="image-gallery-18" src="./img/instalados/18.jpg" alt="image-18"></a>
-      <a href="./img/instalados/19.jpg" target="_blank"><div class="box-spinner spinner-image-19"><div class="spinner"></div></div><img class="image-gallery-19" src="./img/instalados/19.jpg" alt="image-19"></a>
-      <a href="./img/instalados/20.jpg" target="_blank"><div class="box-spinner spinner-image-20"><div class="spinner"></div></div><img class="image-gallery-20" src="./img/instalados/20.jpg" alt="image-20"></a>
-      <a href="./img/instalados/21.jpg" target="_blank"><div class="box-spinner spinner-image-21"><div class="spinner"></div></div><img class="image-gallery-21" src="./img/instalados/21.jpg" alt="image-21"></a>
-      <a href="./img/instalados/23.jpg" target="_blank"><div class="box-spinner spinner-image-22"><div class="spinner"></div></div><img class="image-gallery-22" src="./img/instalados/22.jpg" alt="image-22"></a>
-      <a href="./img/instalados/23.jpg" target="_blank"><div class="box-spinner spinner-image-23"><div class="spinner"></div></div><img class="image-gallery-23" src="./img/instalados/23.jpg" alt="image-23"></a>
-      <a href="./img/instalados/24.jpg" target="_blank"><div class="box-spinner spinner-image-24"><div class="spinner"></div></div><img class="image-gallery-24" src="./img/instalados/24.jpg" alt="image-24"></a>
-      <a href="./img/instalados/25.jpg" target="_blank"><div class="box-spinner spinner-image-25"><div class="spinner"></div></div><img class="image-gallery-25" src="./img/instalados/25.jpg" alt="image-25"></a>
-      <a href="./img/instalados/26.jpg" target="_blank"><div class="box-spinner spinner-image-26"><div class="spinner"></div></div><img class="image-gallery-26" src="./img/instalados/26.jpg" alt="image-26"></a>
-      <a href="./img/instalados/27.jpg" target="_blank"><div class="box-spinner spinner-image-27"><div class="spinner"></div></div><img class="image-gallery-27" src="./img/instalados/27.jpg" alt="image-27"></a>
-      <a href="./img/instalados/28.jpg" target="_blank"><div class="box-spinner spinner-image-28"><div class="spinner"></div></div><img class="image-gallery-28" src="./img/instalados/28.jpg" alt="image-28"></a>
-      <a href="./img/instalados/29.jpg" target="_blank"><div class="box-spinner spinner-image-29"><div class="spinner"></div></div><img class="image-gallery-29" src="./img/instalados/29.jpg" alt="image-29"></a>
-      <a href="./img/instalados/30.jpg" target="_blank"><div class="box-spinner spinner-image-30"><div class="spinner"></div></div><img class="image-gallery-30" src="./img/instalados/30.jpg" alt="image-30"></a>
-      <a href="./img/instalados/31.jpg" target="_blank"><div class="box-spinner spinner-image-31"><div class="spinner"></div></div><img class="image-gallery-31" src="./img/instalados/31.jpg" alt="image-31"></a>
-      <a href="./img/instalados/32.jpg" target="_blank"><div class="box-spinner spinner-image-32"><div class="spinner"></div></div><img class="image-gallery-32" src="./img/instalados/32.jpg" alt="image-32"></a>
-      <a href="./img/instalados/33.jpg" target="_blank"><div class="box-spinner spinner-image-33"><div class="spinner"></div></div><img class="image-gallery-33" src="./img/instalados/33.jpg" alt="image-33"></a>
-      <a href="./img/instalados/34.jpg" target="_blank"><div class="box-spinner spinner-image-34"><div class="spinner"></div></div><img class="image-gallery-34" src="./img/instalados/34.jpg" alt="image-34"></a>
-      <a href="./img/instalados/35.jpg" target="_blank"><div class="box-spinner spinner-image-35"><div class="spinner"></div></div><img class="image-gallery-35" src="./img/instalados/35.jpg" alt="image-35"></a>
-      <a href="./img/instalados/36.jpg" target="_blank"><div class="box-spinner spinner-image-36"><div class="spinner"></div></div><img class="image-gallery-36" src="./img/instalados/36.jpg" alt="image-36"></a>
-      <a href="./img/instalados/37.jpg" target="_blank"><div class="box-spinner spinner-image-37"><div class="spinner"></div></div><img class="image-gallery-37" src="./img/instalados/37.jpg" alt="image-37"></a>
-      <a href="./img/instalados/38.jpg" target="_blank"><div class="box-spinner spinner-image-38"><div class="spinner"></div></div><img class="image-gallery-38" src="./img/instalados/38.jpg" alt="image-38"></a>
-      <a href="./img/instalados/39.jpg" target="_blank"><div class="box-spinner spinner-image-39"><div class="spinner"></div></div><img class="image-gallery-39" src="./img/instalados/39.jpg" alt="image-39"></a>
-      <a href="./img/instalados/40.jpg" target="_blank"><div class="box-spinner spinner-image-40"><div class="spinner"></div></div><img class="image-gallery-40" src="./img/instalados/40.jpg" alt="image-40"></a>
-      <a href="./img/instalados/41.jpg" target="_blank"><div class="box-spinner spinner-image-41"><div class="spinner"></div></div><img class="image-gallery-41" src="./img/instalados/41.jpg" alt="image-41"></a>
-      <a href="./img/instalados/42.jpg" target="_blank"><div class="box-spinner spinner-image-42"><div class="spinner"></div></div><img class="image-gallery-42" src="./img/instalados/42.jpg" alt="image-42"></a>
-      <a href="./img/instalados/43.jpg" target="_blank"><div class="box-spinner spinner-image-43"><div class="spinner"></div></div><img class="image-gallery-43" src="./img/instalados/43.jpg" alt="image-43"></a>
-      <a href="./img/instalados/44.jpg" target="_blank"><div class="box-spinner spinner-image-44"><div class="spinner"></div></div><img class="image-gallery-44" src="./img/instalados/44.jpg" alt="image-44"></a>
-      <a href="./img/instalados/45.jpg" target="_blank"><div class="box-spinner spinner-image-45"><div class="spinner"></div></div><img class="image-gallery-45" src="./img/instalados/45.jpg" alt="image-45"></a>
-      <a href="./img/instalados/46.jpg" target="_blank"><div class="box-spinner spinner-image-46"><div class="spinner"></div></div><img class="image-gallery-46" src="./img/instalados/46.jpg" alt="image-46"></a>
+      <a href="./img/instalados/1.jpg" target="_blank"><div class="box-spinner spinner-image-1"><div class="spinner"></div></div><img class="image-gallery-1" src="./img/instalados/1.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/2.jpg" target="_blank"><div class="box-spinner spinner-image-2"><div class="spinner"></div></div><img class="image-gallery-2" src="./img/instalados/2.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/3.jpg" target="_blank"><div class="box-spinner spinner-image-3"><div class="spinner"></div></div><img class="image-gallery-3" src="./img/instalados/3.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/4.jpg" target="_blank"><div class="box-spinner spinner-image-4"><div class="spinner"></div></div><img class="image-gallery-4" src="./img/instalados/4.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/5.jpg" target="_blank"><div class="box-spinner spinner-image-5"><div class="spinner"></div></div><img class="image-gallery-5" src="./img/instalados/5.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/6.jpg" target="_blank"><div class="box-spinner spinner-image-6"><div class="spinner"></div></div><img class="image-gallery-6" src="./img/instalados/6.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/7.jpg" target="_blank"><div class="box-spinner spinner-image-7"><div class="spinner"></div></div><img class="image-gallery-7" src="./img/instalados/7.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/8.jpg" target="_blank"><div class="box-spinner spinner-image-8"><div class="spinner"></div></div><img class="image-gallery-8" src="./img/instalados/8.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/9.jpg" target="_blank"><div class="box-spinner spinner-image-9"><div class="spinner"></div></div><img class="image-gallery-9" src="./img/instalados/9.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/10.jpg" target="_blank"><div class="box-spinner spinner-image-10"><div class="spinner"></div></div><img class="image-gallery-10" src="./img/instalados/10.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/11.jpg" target="_blank"><div class="box-spinner spinner-image-11"><div class="spinner"></div></div><img class="image-gallery-11"src="./img/instalados/11.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/12.jpg" target="_blank"><div class="box-spinner spinner-image-12"><div class="spinner"></div></div><img class="image-gallery-12" src="./img/instalados/12.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/13.jpg" target="_blank"><div class="box-spinner spinner-image-13"><div class="spinner"></div></div><img class="image-gallery-13" src="./img/instalados/13.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/14.jpg" target="_blank"><div class="box-spinner spinner-image-14"><div class="spinner"></div></div><img class="image-gallery-14" src="./img/instalados/14.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/15.jpg" target="_blank"><div class="box-spinner spinner-image-15"><div class="spinner"></div></div><img class="image-gallery-15" src="./img/instalados/15.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/16.jpg" target="_blank"><div class="box-spinner spinner-image-16"><div class="spinner"></div></div><img class="image-gallery-16" src="./img/instalados/1.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/17.jpg" target="_blank"><div class="box-spinner spinner-image-17"><div class="spinner"></div></div><img class="image-gallery-17" src="./img/instalados/17.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/18.jpg" target="_blank"><div class="box-spinner spinner-image-18"><div class="spinner"></div></div><img class="image-gallery-18" src="./img/instalados/18.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/19.jpg" target="_blank"><div class="box-spinner spinner-image-19"><div class="spinner"></div></div><img class="image-gallery-19" src="./img/instalados/19.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/20.jpg" target="_blank"><div class="box-spinner spinner-image-20"><div class="spinner"></div></div><img class="image-gallery-20" src="./img/instalados/20.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/21.jpg" target="_blank"><div class="box-spinner spinner-image-21"><div class="spinner"></div></div><img class="image-gallery-21" src="./img/instalados/21.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/23.jpg" target="_blank"><div class="box-spinner spinner-image-22"><div class="spinner"></div></div><img class="image-gallery-22" src="./img/instalados/22.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/23.jpg" target="_blank"><div class="box-spinner spinner-image-23"><div class="spinner"></div></div><img class="image-gallery-23" src="./img/instalados/23.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/24.jpg" target="_blank"><div class="box-spinner spinner-image-24"><div class="spinner"></div></div><img class="image-gallery-24" src="./img/instalados/24.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/25.jpg" target="_blank"><div class="box-spinner spinner-image-25"><div class="spinner"></div></div><img class="image-gallery-25" src="./img/instalados/25.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/26.jpg" target="_blank"><div class="box-spinner spinner-image-26"><div class="spinner"></div></div><img class="image-gallery-26" src="./img/instalados/26.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/27.jpg" target="_blank"><div class="box-spinner spinner-image-27"><div class="spinner"></div></div><img class="image-gallery-27" src="./img/instalados/27.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/28.jpg" target="_blank"><div class="box-spinner spinner-image-28"><div class="spinner"></div></div><img class="image-gallery-28" src="./img/instalados/28.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/29.jpg" target="_blank"><div class="box-spinner spinner-image-29"><div class="spinner"></div></div><img class="image-gallery-29" src="./img/instalados/29.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/30.jpg" target="_blank"><div class="box-spinner spinner-image-30"><div class="spinner"></div></div><img class="image-gallery-30" src="./img/instalados/30.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/31.jpg" target="_blank"><div class="box-spinner spinner-image-31"><div class="spinner"></div></div><img class="image-gallery-31" src="./img/instalados/31.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/32.jpg" target="_blank"><div class="box-spinner spinner-image-32"><div class="spinner"></div></div><img class="image-gallery-32" src="./img/instalados/32.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/33.jpg" target="_blank"><div class="box-spinner spinner-image-33"><div class="spinner"></div></div><img class="image-gallery-33" src="./img/instalados/33.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/34.jpg" target="_blank"><div class="box-spinner spinner-image-34"><div class="spinner"></div></div><img class="image-gallery-34" src="./img/instalados/34.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/35.jpg" target="_blank"><div class="box-spinner spinner-image-35"><div class="spinner"></div></div><img class="image-gallery-35" src="./img/instalados/35.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/36.jpg" target="_blank"><div class="box-spinner spinner-image-36"><div class="spinner"></div></div><img class="image-gallery-36" src="./img/instalados/36.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/37.jpg" target="_blank"><div class="box-spinner spinner-image-37"><div class="spinner"></div></div><img class="image-gallery-37" src="./img/instalados/37.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/38.jpg" target="_blank"><div class="box-spinner spinner-image-38"><div class="spinner"></div></div><img class="image-gallery-38" src="./img/instalados/38.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/39.jpg" target="_blank"><div class="box-spinner spinner-image-39"><div class="spinner"></div></div><img class="image-gallery-39" src="./img/instalados/39.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/40.jpg" target="_blank"><div class="box-spinner spinner-image-40"><div class="spinner"></div></div><img class="image-gallery-40" src="./img/instalados/40.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/41.jpg" target="_blank"><div class="box-spinner spinner-image-41"><div class="spinner"></div></div><img class="image-gallery-41" src="./img/instalados/41.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/42.jpg" target="_blank"><div class="box-spinner spinner-image-42"><div class="spinner"></div></div><img class="image-gallery-42" src="./img/instalados/42.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/43.jpg" target="_blank"><div class="box-spinner spinner-image-43"><div class="spinner"></div></div><img class="image-gallery-43" src="./img/instalados/43.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/44.jpg" target="_blank"><div class="box-spinner spinner-image-44"><div class="spinner"></div></div><img class="image-gallery-44" src="./img/instalados/44.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/45.jpg" target="_blank"><div class="box-spinner spinner-image-45"><div class="spinner"></div></div><img class="image-gallery-45" src="./img/instalados/45.jpg" alt="Our gallery"></a>
+      <a href="./img/instalados/46.jpg" target="_blank"><div class="box-spinner spinner-image-46"><div class="spinner"></div></div><img class="image-gallery-46" src="./img/instalados/46.jpg" alt="Our gallery"></a>
     </div>
   </article>
 `;
@@ -244,7 +244,7 @@ const about = `
               </p>
             </div>
             <div class="paragraph">
-              <img src="./img/doble-derecha-48.png">
+              <img src="./img/doble-derecha-48.png"s>
               <p>
                 Step 4: Apply ELITETHANE 90 which is a low odor 90% solids polyaspartic urethane topcoat. The ELITETHANE 90 is higher in solids than most urethane topcoats. The higher solids topcoat is more UV resistant, hot tire resistant, chemical resistant and scratch resistant.
               </p>
@@ -253,14 +253,14 @@ const about = `
         </div>
       </div>
       <div class="box-img-desription">
-        <img src="./img/cards-about/layers.jpg" alt="Elite Floors Co - Floor layers">
+        <img src="./img/cards-about/layers.jpg" alt="Floor layers">
       </div>
       <h2 class="our-videos">Our Videos</h2><br>
       <div class="box">
         <div class="imgBox">
           <div class="box-spinner-video-1"><div class="spinner"></div></div>
           <button class="btn-play-video btn-invisible" id="btn-play-video-1"></button>
-          <video src="./img/cards-about/1.mp4" id="video-1"></video>
+          <video src="./img/cards-about/1.mp4" id="video-1" alt="Diamond Grinding"></video>
         </div>
         <div class="content">
           <h2>DIAMOND GRINDING</br>
@@ -273,7 +273,7 @@ const about = `
         <div class="imgBox">
           <div class="box-spinner-video-2"><div class="spinner"></div></div>
           <button class="btn-play-video btn-invisible" id="btn-play-video-2"></button>
-          <video src="./img/cards-about/2.mp4" id="video-2"></video>
+          <video src="./img/cards-about/2.mp4" id="video-2" alt="Eliteprime 100"></video>
         </div>
         <div class="content">
           <h2>ELITEPRIME 100</br>
@@ -299,7 +299,7 @@ const about = `
         <div class="imgBox">
           <div class="box-spinner-video-4"><div class="spinner"></div></div>
           <button class="btn-play-video btn-invisible" id="btn-play-video-4"></button>
-          <video src="./img/cards-about/4.mp4" id="video-4"></video>
+          <video src="./img/cards-about/4.mp4" id="video-4" alt="Acrylic"></video>
         </div>
         <div class="content">
           <h2>ACRYLIC</br>
@@ -312,7 +312,7 @@ const about = `
         <div class="imgBox">
           <div class="box-spinner-video-5"><div class="spinner"></div></div>
           <button class="btn-play-video btn-invisible" id="btn-play-video-5"></button>
-          <video src="./img/cards-about/5.mp4" id="video-5"></video>
+          <video src="./img/cards-about/5.mp4" id="video-5" alt="Elitethane 90"></video>
         </div>
         <div class="content">
           <h2>ELITETHANE 90</br> 
@@ -325,7 +325,7 @@ const about = `
         <div class="imgBox">
           <div class="box-spinner-video-6"><div class="spinner"></div></div>
           <button class="btn-play-video btn-invisible" id="btn-play-video-6"></button>
-          <video src="./img/cards-about/6.mp4" id="video-6"></video>
+          <video src="./img/cards-about/6.mp4" id="video-6" alt="Polyaspartic"></video>
         </div>
         <div class="content">
           <h2>POLYASPARTIC</br>
@@ -345,7 +345,7 @@ const products = `
     <div class="box-all">
       <div class="box-floor">
         <div class="box-floor-horizontal">
-          <img src="./img/products/terrier.jpg" alt="Standard Floor - Terrier">
+          <img src="./img/products/terrier.jpg" alt="Standard Floor">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Terrier</h3>
             <div class="description-floor">
@@ -358,7 +358,7 @@ const products = `
       </div>
       <div class="box-floor">
         <div class="box-floor-horizontal">
-          <img src="./img/products/cabinfever.jpg" alt="Standard Floor - Cabin Fever">
+          <img src="./img/products/cabinfever.jpg" alt="Standard Floor">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Cabin Fever</h3>
             <div class="description-floor">
@@ -371,7 +371,7 @@ const products = `
       </div>
       <div class="box-floor">
         <div class="box-floor-horizontal">
-          <img src="./img/products/outback.jpg" alt="Standard Floor - Outback">
+          <img src="./img/products/outback.jpg" alt="Standard Floor">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Outback</h3>
             <div class="description-floor">
@@ -384,7 +384,7 @@ const products = `
       </div>
       <div class="box-floor">
         <div class="box-floor-horizontal">
-          <img src="./img/products/domino.jpg" alt="Standard Floor - Domino">
+          <img src="./img/products/domino.jpg" alt="Standard Floor">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Domino</h3>
             <div class="description-floor">
@@ -397,7 +397,7 @@ const products = `
       </div>
       <div class="box-floor">
         <div class="box-floor-horizontal">
-          <img src="./img/products/coldwatercanyon.jpg" alt="Standard Floor - Coldwater Canyon">
+          <img src="./img/products/coldwatercanyon.jpg" alt="Standard Floor">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Coldwater Canyon</h3>
             <div class="description-floor">
@@ -410,7 +410,7 @@ const products = `
       </div>
       <div class="box-floor two-p">
         <div class="box-floor-horizontal">
-          <img src="./img/products/stonehenge.jpg" alt="Standard Floor - Stone Henge">
+          <img src="./img/products/stonehenge.jpg" alt="Standard Floor">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Stone Henge</h3>
             <div class="description-floor">
@@ -422,7 +422,7 @@ const products = `
       </div>
       <div class="box-floor two-p">
         <div class="box-floor-horizontal">
-          <img src="./img/products/creekbed.jpg" alt="Standard Floor - Creekbed">
+          <img src="./img/products/creekbed.jpg" alt="Standard Floor">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Creekbed</h3>
             <div class="description-floor">
@@ -434,7 +434,7 @@ const products = `
       </div>
       <div class="box-floor two-p">
         <div class="box-floor-horizontal">
-          <img src="./img/products/comet.jpg" alt="Standard Floor - Comet">
+          <img src="./img/products/comet.jpg" alt="Standard Floor">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Comet</h3>
             <div class="description-floor">
@@ -446,7 +446,7 @@ const products = `
       </div>
       <div class="box-floor two-p">
         <div class="box-floor-horizontal">
-          <img src="./img/products/shoreline.jpg" alt="Standard Floor - Shoreline">
+          <img src="./img/products/shoreline.jpg" alt="Standard Floor">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Shoreline</h3>
             <div class="description-floor">
@@ -458,7 +458,7 @@ const products = `
       </div>
       <div class="box-floor two-p">
         <div class="box-floor-horizontal">
-          <img src="./img/products/stonewash.jpg" alt="Standard Floor - Stonewash">
+          <img src="./img/products/stonewash.jpg" alt="Standard Floor">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Stonewash</h3>
             <div class="description-floor">
@@ -470,7 +470,7 @@ const products = `
       </div>
       <div class="box-floor">
         <div class="box-floor-horizontal">
-          <img src="./img/products/Wombatgrey.jpg" alt="Standard Floor - Wombat Grey">
+          <img src="./img/products/Wombatgrey.jpg" alt="Standard Floor">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Wombat Grey</h3>
             <div class="description-floor">
@@ -483,7 +483,7 @@ const products = `
       </div>
       <div class="box-floor two-p">
         <div class="box-floor-horizontal">
-          <img src="./img/products/coyote.jpg" alt="Standard Floor - Coyote">
+          <img src="./img/products/coyote.jpg" alt="Standard Floor">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Coyote</h3>
             <div class="description-floor">
@@ -501,7 +501,7 @@ const products = `
     <div class="box-all">
       <div class="box-floor">
         <div class="box-floor-horizontal">
-          <img src="./img/products/dolerite.jpg" alt="Premium Floor - Dolerite">
+          <img src="./img/products/dolerite.jpg" alt="Premium Floor">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Dolerite</h3>
             <div class="description-floor">
@@ -514,7 +514,7 @@ const products = `
       </div>
       <div class="box-floor">
         <div class="box-floor-horizontal">
-          <img src="./img/products/oahubrown.jpg" alt="Premium Floor - Oahubrown">
+          <img src="./img/products/oahubrown.jpg" alt="Premium Floor">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Oahu Brown</h3>
             <div class="description-floor">
@@ -527,7 +527,7 @@ const products = `
       </div>
       <div class="box-floor">
         <div class="box-floor-horizontal">
-          <img src="./img/products/obsidian.jpg" alt="Premium Floor - Obsidian">
+          <img src="./img/products/obsidian.jpg" alt="Premium Floor">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Obsidian</h3>
             <div class="description-floor">
@@ -540,7 +540,7 @@ const products = `
       </div>
       <div class="box-floor">
         <div class="box-floor-horizontal">
-          <img src="./img/products/lanaigray.jpg" alt="Premium Floor - Lanai Gray">
+          <img src="./img/products/lanaigray.jpg" alt="Premium Floor">
           <div class="box-floor-vertical">
             <h3 class="name-floor">Lanai Gray</h3>
             <div class="description-floor">
